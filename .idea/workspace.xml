@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77c55994-5fcb-48c4-a5de-ebe756d6f6df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/iqra.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/Video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/upper-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/upper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1/adventures1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/VelaSans-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Elementary-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Elementary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ellipse 66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ellipse 66.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ellipse1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ellipse2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ellipse3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Inter-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Inter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Vector 106.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/adventures1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/adventures2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/adventures3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/adventures4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/adventures5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/beginner-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/beginner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/close1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/close1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/form-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header_content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nav-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nav-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/open1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/open1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone/open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/preinter-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/preinter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/process back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/process1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/process2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/process3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/process4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/process5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/process6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tablet/Video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tablet/close1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tablet/open1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/upper-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/upper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
+    <list id="278fb01b-e8e7-41f0-b38f-ccf1808868e8" name="Changes1" comment="" />
+    <list id="adca9f66-0213-432a-ac7d-1d7f1ec765bc" name="Changes2" comment="Changes2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VfLTvRimwSHymFMrvkDijRYGEq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "C:/Users/ARS/WebstormProjects/iqra",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ARS\WebstormProjects\iqra\fonts" />
+      <recent name="C:\Users\ARS\WebstormProjects\iqra\img" />
+      <recent name="C:\Users\ARS\WebstormProjects\iqra\img\phone" />
+      <recent name="C:\Users\ARS\WebstormProjects\iqra\img\tablet" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77c55994-5fcb-48c4-a5de-ebe756d6f6df" name="Changes" comment="" />
+      <changelist id="adca9f66-0213-432a-ac7d-1d7f1ec765bc" name="Changes2" comment="" />
+      <changelist id="278fb01b-e8e7-41f0-b38f-ccf1808868e8" name="Changes1" comment="" />
+      <created>1695222200094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695222200094</updated>
+      <workItem from="1695222201323" duration="4078000" />
+      <workItem from="1695281234321" duration="8396000" />
+      <workItem from="1695368670642" duration="13745000" />
+      <workItem from="1695451158026" duration="52118000" />
+      <workItem from="1695618337310" duration="4846000" />
+      <workItem from="1695629303007" duration="45923000" />
+      <workItem from="1695799744763" duration="7012000" />
+      <workItem from="1695807109370" duration="3019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

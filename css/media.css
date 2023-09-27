@@ -1,0 +1,693 @@
+@media (max-width: 1330px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+    
+    .nav-list {
+        display: none;
+    }
+    
+    .nav-button {
+        display: block;
+    }
+
+    .header-nav.open {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        background: #fff;
+        padding: 34px 0 0 119.5px;
+    }
+    .header-nav.open .nav-list {
+        display: flex;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        background: #fff;
+        margin-top: 40px;
+        flex-direction: column;
+        row-gap: 30px;
+        font-size: 30px;
+        align-items: center;
+        font-family: VelaSansBold, serif;
+    }
+
+    .header-nav.open .header-button {
+        display: none;
+    }
+
+    .header-button {
+        margin-right: 25px;
+    }
+
+    .header-nav.open .nav-button {
+        position: absolute;
+        right: 120px;
+        top: 38px;
+    }
+
+
+    .header-content {
+        min-width: 410px;
+        padding-top: 25px;
+    }
+
+    .header-row {
+        align-items: flex-start;
+    }
+
+    .header-title.title {
+        font-size: 35px;
+    }
+
+    .header-subtitle {
+        font-size: 16px;
+    }
+
+    .header-content-button {
+        font-size: 20px;
+        padding: 18px 43px;
+        margin-left: 0;
+    }
+
+    .course {
+        margin-top: 70px;
+    }
+
+    .course-card-content {
+        padding-top: 48px;
+        padding-right: 3px;
+    }
+
+    .course-title.title, .you-can-title.title, .advantages-title.title, .program-title.title, .ask-title.title{
+        font-size: 35px;
+    }
+
+
+    .course-card-title{
+        font-size: 30px;
+    }
+
+    .process-card {
+        max-width: 350px;
+    }
+
+    .course-card-subtitle {
+        font-size: 18px;
+    }
+
+    .process-title.title2 {
+        font-size: 35px;
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    .process-card-items {
+        padding: 20px;
+    }
+
+    .process-card-img {
+        max-width: 314px;
+    }
+
+    .process-card-title {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .process-card-subtitle {
+        font-size: 16px;
+    }
+
+    .process-button.button {
+        padding: 25px 68px;
+    }
+
+    .process-demo {
+        padding: 25px 78px;
+    }
+
+    .advantages {
+        margin-top: 70px;
+    }
+
+    .advantages-content-card {
+        padding: 40px 40px 40px 240px;
+    }
+
+    .timer-min .timer-text , .timer-min1 .timer-text {
+        font-size: 25px;
+    }
+
+    .timer-main3 , .timer-main2 {
+        font-size: 70px;
+    }
+    
+    .program-card-content-row {
+        display: block;
+    }
+
+    .program-card-title {
+        font-size: 35px;
+    }
+
+    .program-card-title:after {
+        content: "";
+        background: url("/img/tablet/open1.png");
+        background-size: auto;
+        width: 35px;
+        height: 35px;
+        right: 0;
+        top: 50px;
+        position: absolute;
+    }
+    .program-card-title.active1:after {
+        content: "";
+        background: url("/img/tablet/close1.png");
+    }
+
+    .ask {
+        margin-top: 70px;
+
+    }
+
+    .ask-row {
+        display: block;
+    }
+
+    .ask-form-row {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-title {
+        font-size: 35px;
+    }
+    .form-subtitle {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .form-text {
+        font-size: 18px;
+    }
+
+    .form-button {
+        width: 100%;
+        padding: 20px 309px;
+        margin-left: 0;
+    }
+
+
+    .ask-form {
+        display: none;
+    }
+    
+    .form {
+        margin-top: 70px;
+        display: block;
+        background: #D095FF;
+        border-radius: 30px;
+        color: #fff;
+        padding: 40px 20px;
+    }
+
+    .footer-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-useful {
+        margin-right: 50px;
+    }
+
+    .footer-contacts {
+        margin-right: 100px;
+    }
+
+
+
+
+
+
+    .footer-buttons {
+        display: none;
+    }
+    
+    .footer-buttons-min {
+        display: block;
+        margin-left: 0;
+    }
+
+    .footer-buttons-min-row {
+        display: flex;
+        gap: 20px;
+        flex: 1 1 auto;
+        padding-bottom: 40px;
+    }
+
+    .button-profile {
+        padding: 10px 151.5px 0 126.5px;
+        max-height: 45px;
+    }
+    .button-profile a {
+        width: 100%;
+    }
+
+    .button-profile:after {
+        content: "";
+    }
+
+
+
+    .button-to-header {
+        max-height: 45px;
+        padding: 10px 136px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .header-button {
+        padding: 16px 30px;
+        margin-right: 10px;
+    }
+
+    .header-row {
+        display: block;
+        text-align: center;
+    }
+
+    .header-title.title, .course-title.title, .you-can-title.title, .advantages-title.title, .program-title.title, .ask-title.title {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .header-subtitle {
+        font-size: 20px;
+    }
+
+    .header-row .header-content {
+        min-width: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .header-content-button {
+        margin: 0 auto;
+    }
+
+    .header-img {
+        margin-top: 30px;
+        padding-right: 25%;
+    }
+
+    .course {
+        text-align: center;
+    }
+
+    .course-title.title, .you-can-title.title {
+        font-size: 30px;
+    }
+    
+    .course-card.card1, .course-card.card2,.course-card.card3{
+        display: block;
+        text-align: left;
+    }
+
+    .course-card-img {
+        padding: 0 0 0 20px;
+    }
+
+    .course-card.card1 .course-card-content, .course-card.card2 .course-card-content, .course-card.card3 .course-card-content {
+        padding:0 30px 40px;
+    }
+
+    .course-card-title.title3 {
+        padding: 0;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .course-card-subtitle {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .you-can {
+        text-align: center;
+    }
+
+    .you-can-card {
+        text-align: left;
+    }
+    .you-can-card-num {
+        font-size: 50px;
+    }
+
+    .you-can-card-title {
+        min-width: auto;
+        margin-top: 20px;
+    }
+
+    .can-card1 .you-can-card-title, .can-card2 .you-can-card-title, .can-card3 .you-can-card-title, .can-card4 .you-can-card-title{
+        font-size: 25px;
+    }
+
+    .process-card {
+        margin: 0 auto;
+    }
+
+    .you-can-card-subtitle {
+        min-width: 300px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .process-title.title2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .process-row {
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .process-buttons {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    .process-button.button {
+        padding: 25px 58.2px;
+        margin: 0;
+    }
+
+    .process-demo.button {
+        padding: 25px 65px;
+        margin:10px 0 0 0;
+    }
+
+    .advantages {
+        text-align: center;
+    }
+    
+    .advantages-content-card-row {
+        display: block;
+    }
+
+    .advantages-content-card {
+        padding: 40px 20px 198px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .advantages-content-card:last-child {
+        margin-bottom: 0;
+    }
+
+
+    .advantages-content-card-content-title {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .advantages-content-card-content-subtitle {
+        font-size: 16px;
+    }
+
+    .advantages-content-card-img {
+        position: absolute;
+        left: 22%;
+    }
+
+    .timer-min1 .timer-row {
+        display: block;
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+
+    .timer, .timer-min, .timer-min1 {
+        margin-top: 50px;
+    }
+
+    .timer-main3 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .timer-button {
+        margin-top: 30px;
+        padding: 15px 71px;
+    }
+
+    .program-card-title {
+        font-size: 25px;
+    }
+
+    .program-card-title:after {
+        content: "";
+        background: url("/img/phone/open.svg");
+        background-size: auto;
+        width: 30px;
+        height: 30px;
+        right: 20px;
+        top: 30px;
+        position: absolute;
+    }
+    .program-card-title.active1:after {
+        content: "";
+        background: url("/img/phone/close.svg");
+    }
+
+    .program-title {
+        text-align: center;
+    }
+
+    .program-card {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    .program-card-title {
+        padding: 30px 20px;
+    }
+
+    .program-card-title.active1 {
+        padding-left: 20px;
+    }
+
+    .program-card-content {
+        margin-top: 0;
+    }
+
+    .program-card-content-module-subtitle {
+        font-size: 16px;
+    }
+
+    .program-card-content-module-title.title4, .program-card-content-result-title.title4 {
+        font-size: 20px;
+    }
+
+    .program-card-content-result-list li {
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media (max-width: 1370px) {
+.title2 {
+    text-align: center;
+}
+
+}
+
+@media (max-width: 1330px) {
+.nav-list {
+    gap: 40px;
+    margin-left: 20px;
+}
+.nav-link {
+    font-size: 16px;
+}
+.logo {
+    font-size: 22px;
+}
+.header-nav {
+    align-items: center;
+}
+
+
+
+.header-row {
+    gap: 41px;
+}
+
+.title {
+    font-size: 42px;
+}
+
+.header-demo {
+    display: none;
+}
+
+.course {
+    margin-top: 50px;
+}
+
+.course-row {
+    display: block;
+}
+
+.course-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.course-card:last-child{
+    margin-bottom: 0;
+}
+
+
+.course-card-content {
+    padding: 40px 30px 20px;
+}
+
+.course-card-subtitle {
+    max-width: 750px;
+}
+
+.you-can-row {
+    display: block;
+}
+
+.you-can-card {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.you-can-card:last-child{
+    margin-bottom: 0;
+}
+
+.you-can-card-subtitle {
+    max-width: 680px;
+}
+
+
+.advantages-row {
+    display: block;
+}
+
+.advantages-content-card:first-child {
+    margin-top: 20px;
+}
+
+.timer{
+    display: none;
+}
+
+.timer-min {
+    display: block;
+    padding: 20px 0 40px 0;
+
+}
+
+.timer1{
+    display: none;
+}
+
+.timer-min1 {
+    display: block;
+    padding: 20px 0 40px 0;
+
+}
+
+
+.timer-min .timer-button, .timer-min1 .timer-button {
+    width: 100%;
+    margin-left: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.program .program-card-title {
+    text-align: left;
+}
+
+.program-card-content-row {
+    gap: 5px;
+}
+
+.program-card-content-text {
+    padding: 30px 0 30px 30px;
+}
+
+.program-card-content-module-subtitle {
+    margin-top: 5px;
+}
+
+
+.program-card-content-result-title {
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.program-card-content-result-list li{
+    font-family: VelaSansSemi, serif;
+    margin-bottom: 10px;
+    list-style: disc;
+    font-size: 12px;
+}
+
+.program-card-content-module-subtitle {
+    font-size: 12px;
+}
+
+.ask-card-question {
+    font-size: 22px;
+    max-width: 100%;
+}
+
+.ask-card-response {
+    font-size: 17px;
+}
+
+.ask-form form {
+    padding: 40px 30px;
+}
+
+.footer-row {
+    gap: 55px;
+}
+
+
+.footer-contacts , .footer-social , .footer-buttons , .footer-useful{
+    margin-left: 0;
+}
+
+
+
+}

@@ -1,0 +1,857 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: "VelaSans";
+    src: local("VelaSans"),
+    url("/fonts/VelaSans-Regular.woff2"),
+    url("/fonts/VelaSans-Regular.woff"),
+    url("/fonts/VelaSans-Bold.woff2"),
+    url("/fonts/VelaSans-Bold.woff")
+}
+
+@font-face {
+    font-weight: 800;
+    font-family: VelaSansExtra;
+    src: local("VelaSans"),
+    url("/fonts/VelaSans-ExtraBold.woff2"),
+    url("/fonts/VelaSans-ExtraBold.woff")
+}
+
+@font-face {
+    font-family: VelaSansSemi;
+    src: local("VelaSans"),
+    url("/fonts/VelaSans-SemiBold.woff2"),
+    url("/fonts/VelaSans-SemiBold.woff");
+}
+
+@font-face {
+    font-family: VelaSansBold;
+    src: local("VelaSans"),
+    url("/fonts/VelaSans-Bold.woff2"),
+    url("/fonts/VelaSans-Bold.woff");
+}
+
+@font-face {
+    font-family: 'VelaSansMedium';
+    src: local("VelaSans"),
+    url("/fonts/VelaSans-Medium.woff2"),
+    url("/fonts/VelaSans-Medium.woff");
+
+}
+
+body {
+    font-family: VelaSans, serif;
+    color: #000;
+}
+
+.title {
+    font-family: VelaSansExtra, serif;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.title2 {
+    font-family: VelaSansExtra, serif;
+    font-size: 50px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.title3 {
+    font-family: VelaSansExtra, serif;
+    font-size: 40px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.title4 {
+    font-size: 30px;
+    font-family: VelaSansBold, serif;
+}
+
+.button {
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 30px;
+    color: #FFF;
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    font-family: VelaSansExtra, serif;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.button:hover,
+.button:active,
+.button:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    color: #FFF;
+}
+.button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, transparent, rgba(191, 226, 255, 0.3), transparent);
+    transition: left 0.7s;
+}
+.button:hover:before,
+.button:active:before,
+.button:focus:before {
+    left: 100%;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Header */
+
+.header {
+    padding-top: 30px;
+    background: url("/img/Ellipse 66.svg") no-repeat, url("/img/Ellipse2.png") no-repeat right top, url("/img/Ellipse3.png") no-repeat 270px 212px ;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: VelaSansExtra, serif;
+    color: #000;
+    font-size: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.nav {
+    margin-right: 50px;
+    flex: 1 1 auto;
+}
+
+
+
+.nav-list {
+    gap: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #000;
+}
+
+.nav-button {
+    display: none;
+}
+
+.header-button {
+    display: inline-block;
+    padding: 20px 50px;
+    border: #1DAEFF 2px solid;
+    border-radius: 100px;
+}
+.header-button a{
+    color: #1DAEFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header-row {
+    display: flex;
+    gap: 51px;
+    margin-top: 48px;
+    align-items: center;
+}
+
+.header-content {
+    max-width: 640px;
+}
+
+
+.header-subtitle {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.header-img {
+    height: 100%;
+}
+
+.button a{
+    color: #fff;
+}
+
+.header-content-button {
+    padding: 25px 45px;
+    background: linear-gradient(#4FE779, #3EC965);
+    margin-left: 0;
+}
+
+.header-content-buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header-demo a{
+    font-size: 25px;
+    color: #808080;
+}
+.header-demo:after{
+    content: url("/img/demo.png");
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+}
+/* course */
+
+.course-row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.course-card {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.card1 {
+    background: #D095FF;
+}
+
+.card2 {
+    background: #5FC5FF;
+}
+
+.card3 {
+    background: #F94848;
+}
+
+.course-card-img {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.course-card-title {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.course-card-subtitle {
+    font-family: VelaSansSemi, serif;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 0 33px 40px 30px;
+}
+/* You-can*/
+.you-can {
+    margin-top: 100px;
+}
+
+.you-can-row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.you-can-card {
+    max-width: 640px;
+    border-radius: 30px;
+    padding: 50px 70px 40px 30px;
+}
+
+.can-card1 {
+    border: #1DAEFF 5px solid;
+}
+.can-card2 {
+    border: #F94848 5px solid;
+}
+.can-card3 {
+    border: #D095FF 5px solid;
+}
+.can-card4 {
+    border: #FFB800 5px solid;
+}
+
+.you-can-card-num {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 100%;
+}
+.num1 {
+    color: #1DAEFF;
+}
+.num2 {
+    color: #F94848;
+}
+.num3 {
+    color: #D095FF;
+}
+.num4 {
+    color: #FFB800;
+}
+
+.you-can-card-title {
+    min-width: 535px;
+    margin-top: 46px;
+    font-family: VelaSansExtra, serif;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.you-can-card-subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Process */
+
+.process {
+    margin: 100px 20px 0;
+    background: #3EC965 url("/img/process back.png") no-repeat ;
+    background-size: cover ;
+    border-radius: 50px;
+}
+
+.process-title {
+    padding-top: 80px;
+}
+
+.process-row {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.process-card {
+    background: #fff;
+    border-radius: 40px;
+    padding: 0;
+}
+
+.process-card-items {
+    padding: 30px;
+}
+
+
+.process-card-title {
+    font-family: VelaSansExtra, serif;
+    font-size: 40px;
+    line-height: 100%;
+    margin-top: 25px;
+}
+
+.process-card-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 360px;
+    margin-top: 10px;
+}
+
+.process-buttons {
+    margin-top: 24px;
+    padding-bottom: 80px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.process-button {
+    background: linear-gradient(#3D3D3D, #000);
+    padding: 25px 56px;
+    font-size: 25px;
+
+}
+
+.process-demo{
+    border: #fff 4px solid;
+    padding: 25px 66px;
+    font-size: 25px;
+}
+
+/* Advantages */
+.advantages {
+    margin-top: 100px;
+}
+
+
+.advantages-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-content-card {
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.advantages-content-card:last-child{
+    margin-bottom: 0;
+}
+
+.advantages-content-card1 {
+    background: #5FC5FF;
+}
+.advantages-content-card2 {
+    background: #FFB800;
+}
+.advantages-content-card3 {
+    background: #FF6A3A;
+}
+.advantages-content-card4 {
+    background: #EFB06B;
+}
+.advantages-content-card5 {
+    background: #AF88E8;
+}
+
+.advantages-content-card-row {
+    display: flex;
+}
+
+.advantages-content-card-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.advantages-content-card {
+    padding: 40px 62px 40px 250px;
+}
+
+.advantages-content-card-content-subtitle {
+    font-family: VelaSansSemi, serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* timer */
+.timer , .timer-min, .timer-min1 {
+    margin-top: 100px;
+    background: #0263D1;
+    color: #fff;
+}
+
+.timer-row {
+    padding: 32px 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer-text {
+    line-height: 120%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.timer-main, .timer-main1, .timer-main2, .timer-main3 {
+    font-family: VelaSansExtra, serif;
+    line-height: 1;
+    font-size: 70px;
+    margin-left: 44px;
+}
+
+.timer-button {
+    display: inline-block;
+    position: relative;
+    font-family: VelaSansExtra, serif;
+    background: #fff;
+    border-radius: 100px;
+    font-size: 25px;
+    padding: 25px 90px;
+    margin-left: 89px;
+}
+.timer-button a {
+    color: #0263D1;
+}
+
+/* Program */
+.program {
+    margin-top: 100px;
+}
+
+.program-card-title {
+    padding-top: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.program-card-title:after {
+    content: "";
+    background: url("/img/open1.svg");
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 50px;
+    position: absolute;
+}
+.program-card-title.active1:after {
+    content: "";
+    background: url("/img/close1.svg");
+}
+.program-card-title.active1 {
+    padding-left: 0;
+}
+
+.program-card {
+    border-radius: 50px;
+    margin: 0 20px 20px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.program-card:last-child {
+    margin-bottom: 0;
+}
+
+.program-card1 {
+    background: #5FC5FF url("/img/beginner-back.png") no-repeat;
+    margin-top: 40px;
+}
+.program-card2 {
+    background: #D095FF url("/img/Elementary-back.png") no-repeat top right;
+}
+.program-card3 {
+    background: #F8C94D url("/img/preinter-back.png") no-repeat top right;
+}
+.program-card4 {
+    background: #3EC965 url("/img/Inter-back.png") no-repeat top right;
+}
+.program-card5 {
+    background: #F94848 url("/img/upper-back.png") no-repeat 40px 40px ;
+}
+
+.program-card-content {
+    background: #fff;
+    border-radius: 30px;
+    display: none;
+    margin-top: 30px;
+}
+
+.program-card-content-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.program-card-content-text {
+    padding: 50px 0 50px 50px;
+}
+
+.program-card-content-module-subtitle {
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 520px;
+}
+
+.program-card-content-result-title {
+    margin-top: 40px;
+}
+
+.program-card-content-result-list {
+    margin-top: 20px;
+    max-width: 485px;
+}
+.program-card-content-result-list li{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style: disc;
+    font-size: 16px;
+}
+.program-card-content-result-list li:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.program-card2 .program-card-content-module-subtitle p {
+    max-width: 473px;
+}
+.program-card2 .program-card-content-result-list{
+    max-width: 530px;
+}
+.program-card2 .program-card-content-text {
+    padding-bottom: 72px;
+}
+
+
+.program-card3 .program-card-content-module-subtitle p{
+    max-width: 547px;
+}
+.program-card3 .program-card-content-result-list{
+    max-width: 530px;
+}
+
+
+
+.program-card-content-result-list-title p {
+    font-family: VelaSansBold, serif;
+}
+.program-card-content-result-list-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.program-card4 .program-card-content-text {
+    padding-bottom: 50px;
+}
+
+
+.program-card5 .program-card-content-text {
+    padding-bottom: 50px;
+    max-width: 530px;
+}
+
+
+
+/* Ask */
+.ask {
+    margin-top: 100px;
+}
+
+.ask-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ask-cards {
+    margin-top: 40px;
+}
+
+.ask-card {
+    background: #F4F4F4;
+    border-radius: 20px;
+    padding: 30px 132px 30px 30px ;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.ask-card:last-child {
+    margin-bottom: 0;
+}
+
+.ask-card-question {
+    font-family: VelaSansBold, serif;
+    font-size: 25px;
+    line-height: 130%;
+}
+.ask-card-question:after {
+    content: url("/img/close.svg") ;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.ask-card-question.active:after {
+    content: url("/img/open.svg");
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+
+
+.ask-card-response {
+    display: none;
+    font-size: 20px;
+    line-height: 130%;
+    margin-top: 15px;
+}
+
+.form {
+    display: none;
+}
+
+.ask-form {
+    background: #D095FF;
+    border-radius: 40px;
+    margin-left: 20px;
+    max-height: 700px;
+}
+
+.ask-form form{
+    color: #fff;
+    padding: 60px 50px;
+}
+
+.form-title {
+    font-family: VelaSansExtra, serif;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.form-subtitle {
+    font-family: VelaSansMedium, serif;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.ask-form input {
+    color: #000;
+    opacity: 50%;
+    font-size: 25px;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.form-name {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 27px 0 28px 27px;
+}
+
+.form-phone {
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 27px 0 28px 27px;
+}
+
+.form-email {
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 27px 0 28px 27px;
+}
+
+.form-text {
+    font-family: VelaSansMedium, serif;
+    font-size: 18px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.form-text:after {
+    content: url("/img/form-line.svg");
+    position: absolute;
+    left: 0;
+    top: 31px;
+}
+
+.form-button{
+    background: linear-gradient(#333333, #000);
+    padding: 27px 147px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+}
+.footer a {
+    color: #fff;
+}
+
+.footer-row {
+    display: flex;
+    align-items: flex-end;
+    padding: 40px 0 56px 0;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    max-width: 200px;
+}
+
+
+
+.footer-logo-rights {
+    margin-top: 15px;
+    font-family: VelaSansBold, serif;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.footer-logo-text {
+    margin-top: 5px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.footer-useful {
+    margin-left: 41px;
+    max-width: 259px;
+}
+
+.useful-title, .social-title, .contacts-title {
+    font-family: VelaSansExtra, serif;
+    font-size: 25px;
+}
+
+.useful-item, .social-item, .contacts-item {
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.footer-social {
+    margin-left: 71px;
+}
+
+.footer-contacts {
+    margin-left: 78px;
+}
+
+.footer-buttons {
+    margin-left: 42px;
+}
+.footer-buttons-min {
+    display: none;
+}
+
+.button-to-header {
+    display: inline-block;
+    border-radius: 100px;
+    border: #fff 2px solid;
+    position: relative;
+    padding: 10px 36px;
+    font-family: VelaSansBold, serif;
+    font-size: 18px;
+}
+
+
+.button-profile {
+    position: relative;
+    font-family: VelaSansBold, serif;
+    font-size: 18px;
+    border-radius: 100px;
+    background: #fff;
+    padding: 10px 27px;
+    margin-bottom: 5px;
+}
+.button-profile a {
+    color: #000;
+}
+
+.button-profile:after {
+    content: url("/img/profile.svg");
+    margin-left: 10px;
+}
+
+.timer-min {
+    display: none;
+}
+.timer-min1{
+    display: none;
+}

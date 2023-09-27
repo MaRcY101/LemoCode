@@ -1,0 +1,3087 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+new file mode 100644
+--- /dev/null	(date 1695804529693)
++++ b/index.html	(date 1695804529693)
+@@ -0,0 +1,916 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
++    <title>Title</title>
++    <link rel="stylesheet" href="./css/main.css">
++    <link rel="stylesheet" href="./css/media.css">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++</head>
++<body>
++<header class="header">
++    <div class="container">
++        <div id="nav" class="header-nav open">
++            <div class="logo2">
++                <img src="img/logo.svg" alt="">
++                <a href="#" class="logo">iqra</a>
++            </div>
++            <nav class="nav">
++                <ul class="nav-list">
++                    <li class="nav-item"><a href="#course" class="nav-link ">Кому подойдет</a></li>
++                    <li class="nav-item"><a href="#" class="nav-link">О курсе</a></li>
++                    <li class="nav-item"><a href="#" class="nav-link">Стоимость</a></li>
++                    <li class="nav-item"><a href="#" class="nav-link">Отзывы</a></li>
++                    <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
++                </ul>
++            </nav>
++            <div class="header-button">
++                <a href="#">Войти</a>
++            </div>
++            <button id="nav-btn" class="nav-button">
++                <img id="nav-btn-img" src="img/nav-open.svg" alt="" srcset="">
++            </button>
++        </div>
++        <div class="header-row">
++            <div class="header-content">
++                <h1 class="header-title title">Весь курс Английского всего за 9 990 тг</h1>
++                <p class="header-subtitle">+150 видеоуроков и заданий в удобном формате</p>
++                <div class="header-content-buttons">
++                    <div class="button header-content-button">
++                        <a href="#">Приобрести курс</a>
++                    </div>
++                </div>
++            </div>
++            <div class="header-img">
++                <img src="img/header_content.png">
++            </div>
++        </div>
++    </div>
++</header>
++<main class="main">
++    <section id="course" class="course">
++        <div class="container">
++            <div class="course-title title">
++                <h2>Кому подойдет курс?</h2>
++            </div>
++            <div class="course-row">
++                <div class="course-card card1">
++                    <div class="course-card-img">
++                        <img src="img/course1.png" alt="">
++                    </div>
++                    <div class="course-card-content">
++                        <div class="course-card-title title3">
++                            <h3>Поступающим</h3>
++                        </div>
++                        <div class="course-card-subtitle">
++                            <p>Если вы окончили школу, колледж или университет, и хотите поступить зарубеж.</p>
++                        </div>
++                    </div>
++                </div>
++                <div class="course-card card2">
++                    <div class="course-card-img">
++                        <img src="img/course2.png" alt="">
++                    </div>
++                    <div class="course-card-content">
++                        <div class="course-card-title title3">
++                            <h3>Улетающим</h3>
++                        </div>
++                        <div class="course-card-subtitle">
++                            <p>Вы хотите работать зарубежом, и, возможно, планируете остаться там на долгое время.</p>
++                        </div>
++                    </div>
++                </div>
++                <div class="course-card card3">
++                    <div class="course-card-img">
++                        <img src="img/course3.png" alt="">
++                    </div>
++                    <div class="course-card-content">
++                        <div class="course-card-title title3">
++                            <h3>Всем желающим</h3>
++                        </div>
++                        <div class="course-card-subtitle">
++                            <p>Английский нужен везде: от понимания зарубежных кино, музыки и книг до работы
++                                учителем.</p>
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="you-can">
++        <div class="container">
++            <div class="you-can-title title">
++                <h2>По окончанию вы сможете</h2>
++            </div>
++            <div class="you-can-row">
++                <div class="you-can-card can-card1">
++                    <div class="you-can-card-num">
++                        <span class="num1">01</span>
++                    </div>
++                    <div class="you-can-card-title">
++                        <h3>Преодолеть языковой барьер</h3>
++                    </div>
++                    <div class="you-can-card-subtitle">
++                        <p>Наши методы помогут вам легко преодолеть языковой барьер и говорить на английском с
++                            уверенностью.</p>
++                    </div>
++                </div>
++                <div class="you-can-card can-card2">
++                    <div class="you-can-card-num">
++                        <span class="num2">02</span>
++                    </div>
++                    <div class="you-can-card-title">
++                        <h3>Понимать на слух без усилий</h3>
++                    </div>
++                    <div class="you-can-card-subtitle">
++                        <p>Вы научитесь легко воспринимать речь носителей языка и разбирать даже быстрые диалоги.</p>
++                    </div>
++                </div>
++                <div class="you-can-card can-card3">
++                    <div class="you-can-card-num">
++                        <span class="num3">03</span>
++                    </div>
++                    <div class="you-can-card-title">
++                        <h3>Писать грамотно</h3>
++                    </div>
++                    <div class="you-can-card-subtitle">
++                        <p>Сможете писать сложные тексты и эссе структруированно и грамтоно</p>
++                    </div>
++                </div>
++                <div class="you-can-card can-card4">
++                    <div class="you-can-card-num">
++                        <span class="num4">04</span>
++                    </div>
++                    <div class="you-can-card-title">
++                        <h3>Достичь профессиональных целей</h3>
++                    </div>
++                    <div class="you-can-card-subtitle">
++                        <p>Сумеете устроиться на работу, уехать заграницу и даже жить там и обучаться</p>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="process">
++        <div class="container">
++            <div class="process-title title2">
++                <h2>Процесс обучения</h2>
++            </div>
++            <div class="process-row">
++                <div class="process-card process-card1">
++                    <div class="process-card-items">
++                        <div class="process-card-img">
++                            <img src="img/process1.png">
++                        </div>
++                        <div class="process-card-title">
++                            <h3>Видео-уроки</h3>
++                        </div>
++                        <div class="process-card-subtitle">
++                            <p>Профессиональные видео-уроки с интересной и понятной подачей</p>
++                        </div>
++                    </div>
++                </div>
++                <div class="process-card">
++                    <div class="process-card-items">
++                        <div class="process-card-img">
++                            <img src="img/process2.png">
++                        </div>
++                        <div class="process-card-title">
++                            <h3>Глоссарий</h3>
++                        </div>
++                        <div class="process-card-subtitle">
++                            <p>Новые слова в каждом уроке, которые можно сохранить в PDF</p>
++                        </div>
++                    </div>
++                </div>
++                <div class="process-card">
++                    <div class="process-card-items">
++                        <div class="process-card-img">
++                            <img src="img/process3.png">
++                        </div>
++                        <div class="process-card-title">
++                            <h3>Задания</h3>
++                        </div>
++                        <div class="process-card-subtitle">
++                            <p>Проверочные задания после урока для закрепления новых знаний</p>
++                        </div>
++                    </div>
++                </div>
++                <div class="process-card">
++                    <div class="process-card-items">
++                        <div class="process-card-img">
++                            <img src="img/process4.png">
++                        </div>
++                        <div class="process-card-title">
++                            <h3>Рейтинг</h3>
++                        </div>
++                        <div class="process-card-subtitle">
++                            <p>Соревнуйтесь с другими и получайте приятные призы</p>
++                        </div>
++                    </div>
++                </div>
++                <div class="process-card">
++                    <div class="process-card-items">
++                        <div class="process-card-img">
++                            <img src="img/process5.png">
++                        </div>
++                        <div class="process-card-title">
++                            <h3>Сертификат</h3>
++                        </div>
++                        <div class="process-card-subtitle">
++                            <p>Получите сертификат и смело просите сүйінші у родных</p>
++                        </div>
++                    </div>
++                </div>
++                <div class="process-card">
++                    <div class="process-card-items">
++                        <div class="process-card-img">
++                            <img src="img/process6.png">
++                        </div>
++                        <div class="process-card-title">
++                            <h3>Возврат средств</h3>
++                        </div>
++                        <div class="process-card-subtitle">
++                            <p>Вы можете вернуть всю сумму за курс в течение 7 дней после покупки</p>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="process-buttons">
++                <div class="process-button button">
++                    <a href="#">Приобрести курс</a>
++                </div>
++                <div class="process-demo button">
++                    <a href="#">Смотреть Демо</a>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="advantages">
++        <div class="container">
++            <div class="advantages-row">
++                <div class="advantages-title title">
++                    <h2>Преимущества</h2>
++                </div>
++                <div class="advantages-content">
++                    <div class="advantages-content-card advantages-content-card1">
++                        <div class="advantages-content-card-row">
++                            <div class="advantages-content-card-img">
++                                <img src="img/adventures1.png">
++                            </div>
++                            <div class="advantages-content-card-content content1">
++                                <div class="advantages-content-card-content-title title3">
++                                    <h3>Единая платформа</h3>
++                                </div>
++                                <div class="advantages-content-card-content-subtitle">
++                                    <p>Все уроки, видео и задания <br> в одном месте</p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="advantages-content-card advantages-content-card2">
++                        <div class="advantages-content-card-row">
++                            <div class="advantages-content-card-img">
++                                <img src="img/adventures2.png">
++                            </div>
++                            <div class="advantages-content-card-content content2">
++                                <div class="advantages-content-card-content-title title3">
++                                    <h3>Игровой режим</h3>
++                                </div>
++                                <div class="advantages-content-card-content-subtitle">
++                                    <p>Получайте очки за пройденные <br> уроки и соревнуйтесь с другими</p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="advantages-content-card advantages-content-card3">
++                        <div class="advantages-content-card-row">
++                            <div class="advantages-content-card-img">
++                                <img src="img/adventures3.png">
++                            </div>
++                            <div class="advantages-content-card-content content3">
++                                <div class="advantages-content-card-content-title title3">
++                                    <h3>Где и когда угодно</h3>
++                                </div>
++                                <div class="advantages-content-card-content-subtitle">
++                                    <p>Обучайтесь в любое время <br> в любом месте</p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="advantages-content-card advantages-content-card4">
++                        <div class="advantages-content-card-row">
++                            <div class="advantages-content-card-img">
++                                <img src="img/adventures4.png">
++                            </div>
++                            <div class="advantages-content-card-content content4">
++                                <div class="advantages-content-card-content-title title3">
++                                    <h3>Годовой доступ</h3>
++                                </div>
++                                <div class="advantages-content-card-content-subtitle">
++                                    <p>Курс будет доступен вам на 365 дней. <br> Используйте это время с умом</p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="advantages-content-card advantages-content-card5">
++                        <div class="advantages-content-card-row">
++                            <div class="advantages-content-card-img">
++                                <img src="img/adventures5.png">
++                            </div>
++                            <div class="advantages-content-card-content content5">
++                                <div class="advantages-content-card-content-title title3">
++                                    <h3>На любом устройстве</h3>
++                                </div>
++                                <div class="advantages-content-card-content-subtitle">
++                                    <p>Даже на калькуляторе. <br>
++                                        Главное, чтобы там был браузер</p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="timer">
++        <div class="container">
++            <div class="timer-row">
++                <div class="timer-text">
++                    <p>Успейте приобрести <br> весь курс по 60% скидке </p>
++                </div>
++                <div class="timer-main">
++                    <span class="hours">12 </span>: <span class="minutes">24 </span>: <span class="seconds"> 57</span>
++                </div>
++                <div class="timer-button">
++                    <a href="#">Получить скидку %</a>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="timer-min1">
++        <div class="container">
++            <div class="timer-row">
++                <div class="timer-text">
++                    <p>Успейте приобрести <br> весь курс по 60% скидке </p>
++                </div>
++                <div class="timer-main3">
++                    <span class="hours3">12 </span>: <span class="minutes3">24 </span>: <span
++                        class="seconds3"> 57</span>
++                </div>
++            </div>
++            <div class="timer-button">
++                <a href="#">Получить скидку %</a>
++            </div>
++        </div>
++    </section>
++    <section class="program">
++        <div class="container">
++            <div class="program-title title">
++                <h2>Программа курса</h2>
++            </div>
++        </div>
++        <div class="program-card program-card1">
++            <div class="container">
++                <div class="program-card-title title2">
++                    <h2>Beginner</h2>
++                </div>
++                <div class="program-card-content">
++                    <div class="program-card-content-row">
++                        <div class="program-card-content-text">
++                            <div class="program-card-content-module-title title4">
++                                <h3>О модуле</h3>
++                            </div>
++                            <div class="program-card-content-module-subtitle">
++                                <p>Beginner является твердым фундаментом, который пригодится для всех последующих
++                                    уровней</p>
++                            </div>
++                            <div class="program-card-content-result-title title4">
++                                <h3>По итогу модуля вы сможете:</h3>
++                            </div>
++                            <div class="program-card-content-result-list">
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Понимать алфавит, правильно произносить звуки и уметь
++                                        читать
++                                        по транскрипции
++                                    </li>
++                                    <li class="beginner-item">Освоить приветствия и общие вопросы о самочувствии</li>
++                                    <li class="beginner-item">Уметь представлять себя и других, описывать времени
++                                        суток
++                                    </li>
++                                    <li class="beginner-item">Знать личные местоимения, время "to be" и его сокращения
++                                    </li>
++                                    <li class="beginner-item">Понимать и использовать формат 12-часового времени.</li>
++                                    <li class="beginner-item">Суметь задавать вопросы с "to be", спрашивать о ценах.
++                                    </li>
++                                    <li class="beginner-item">Освоить конструкции "There is/There are"</li>
++                                    <li class="beginner-item">Уметь описывать свои интересы и рассказывать о занятиях.
++                                    </li>
++                                    <li class="beginner-item">Освоить глагол "have/have got", притяжательные
++                                        прилагательные
++                                    </li>
++                                    <li class="beginner-item">Правильно использовать артикли и формы
++                                        единственного/множественного
++                                        числа существительных
++                                    </li>
++                                    <li class="beginner-item">Освоить рассказ о повседневных рутинах с Present Simple
++                                    </li>
++                                </ul>
++                            </div>
++                        </div>
++                        <div class="program-card-content-img">
++                            <img src="img/beginner.png" alt="">
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++        <div class="program-card program-card2">
++            <div class="container">
++                <div class="program-card-title title2">
++                    <h2>Elementary</h2>
++                </div>
++                <div class="program-card-content">
++                    <div class="program-card-content-row">
++                        <div class="program-card-content-text">
++                            <div class="program-card-content-module-title title4">
++                                <h3>О модуле</h3>
++                            </div>
++                            <div class="program-card-content-module-subtitle">
++                                <p>Модуль Elementary – это важное отправное звено, на котором строится понимание языка.
++                                    Он
++                                    представляет собой надежную основу, необходимую для успешного освоения более сложных
++                                    уровней.</p>
++                            </div>
++                            <div class="program-card-content-result-title title4">
++                                <h3>По итогу модуля вы сможете:</h3>
++                            </div>
++                            <div class="program-card-content-result-list">
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Овладеть основами грамматики и частями речи
++                                    </li>
++                                    <li class="beginner-item">Уметь образовывать простые предложения и владеть временами
++                                        Present Simple, Past Simple, Present Continuous и Present Perfect
++                                    </li>
++                                    <li class="beginner-item">Уметь использовать личные местоимения, притяжательные
++                                        прилагательные и глагол "to be"
++                                    </li>
++                                    <li class="beginner-item">Освоить артикли, существительные в разных числах и
++                                        временные
++                                        формы
++                                    </li>
++                                    <li class="beginner-item">Уметь выражать свои способности с "can" и предпочтения с
++                                        "like/love/hate/can't stand + V-ing"
++                                    </li>
++                                    <li class="beginner-item">Понимать использование модальных глаголов "going to/will"
++                                        и
++                                        "should"
++                                    </li>
++                                    <li class="beginner-item">Уметь описывать желания с "would like"</li>
++                                    <li class="beginner-item">Уметь использовать наречия манеры, повелительные формы и
++                                        простые предлоги
++                                    </li>
++                                </ul>
++                            </div>
++                        </div>
++                        <div class="program-card-content-img">
++                            <img src="img/Elementary.png" alt="">
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++        <div class="program-card program-card3">
++            <div class="container">
++                <div class="program-card-title title2">
++                    <h2>Pre-Intermediate</h2>
++                </div>
++                <div class="program-card-content">
++                    <div class="program-card-content-row">
++                        <div class="program-card-content-text">
++                            <div class="program-card-content-module-title title4">
++                                <h3>О модуле</h3>
++                            </div>
++                            <div class="program-card-content-module-subtitle">
++                                <p>Продвинутый Pre-Intermediate – это модуль, который дает учащимся возможность
++                                    расширить
++                                    свой языковой арсенал. Он укрепляет основные концепции, необходимые для более
++                                    сложных
++                                    языковых задач, и служит мостом к следующему уровню в освоении языка.</p>
++                            </div>
++                            <div class="program-card-content-result-title title4">
++                                <h3>По итогу модуля вы сможете:</h3>
++                            </div>
++                            <div class="program-card-content-result-list">
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Вести диалоги с носителями языка, обсуждать темы, выражать
++                                        мнение
++                                    </li>
++                                    <li class="beginner-item">Понимать длинные речи, новости, фильмы с разными акцентами
++                                    </li>
++                                    <li class="beginner-item">Читать статьи, романы и понимать содержание</li>
++                                    <li class="beginner-item">Писать подробно на разные темы, включая эссе и отчеты</li>
++                                    <li class="beginner-item">Освоите грамматику времен Present Simple, Present
++                                        Continuous,
++                                        Present Perfect, Past Simple, Past Continuous, Past Perfect
++                                    </li>
++                                    <li class="beginner-item">Узнаете правила порядка слов, использования предлогов
++                                        времени
++                                        и места
++                                    </li>
++                                    <li class="beginner-item">Изучите способы выражения способностей, обязательностей,
++                                        разрешений и запретов
++                                    </li>
++                                    <li class="beginner-item">Овладеете сравнительными и превосходными формами
++                                        прилагательных, узнаете о счетных и несчетных существительных
++                                    </li>
++                                    <li class="beginner-item">Изучите модальные глаголы, инфинитив цели, герундий и
++                                        косвенную речь
++                                    </li>
++                                    <li class="beginner-item">Получите обширный словарный запас для описания
++                                        характеристик,
++                                        событий и мнений
++                                    </li>
++                                </ul>
++                            </div>
++                        </div>
++                        <div class="program-card-content-img">
++                            <img src="img/preinter.png" alt="">
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++        <div class="program-card program-card4">
++            <div class="container">
++                <div class="program-card-title title2">
++                    <h2>Intermediate</h2>
++                </div>
++                <div class="program-card-content">
++                    <div class="program-card-content-row">
++                        <div class="program-card-content-text">
++                            <div class="program-card-content-module-title title4">
++                                <h3>О модуле</h3>
++                            </div>
++                            <div class="program-card-content-module-subtitle">
++                                <p>Intermediate – этот уровень поднимает вас выше и дальше. Грамматика становится более
++                                    интересной, словарь богаче, а выражение мыслей на иностранном языке – увереннее.</p>
++                            </div>
++                            <div class="program-card-content-result-title title4">
++                                <h3>По итогу модуля вы сможете:</h3>
++                            </div>
++                            <div class="program-card-content-result-list">
++                                <div class="program-card-content-result-list-title">
++                                    <p>Навыкам говорения:</p>
++                                </div>
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Вести диалог с носителем языка
++                                    </li>
++                                    <li class="beginner-item">Обсуждать знакомые темы подробно
++                                    </li>
++                                    <li class="beginner-item">Выражать мнение и анализировать его аргументы
++                                    </li>
++                                </ul>
++                                <div class="program-card-content-result-list-title">
++                                    <p>Навыкам говорения:</p>
++                                </div>
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Понимать длинную речь и лекции, добавляя аргументы и
++                                        обсуждая
++                                        их
++                                    </li>
++                                    <li class="beginner-item">Понимать большинство телевизионных новостей и программ о
++                                        текущих событиях
++                                    </li>
++                                    <li class="beginner-item">Понимать фильмы с разными акцентами
++                                    </li>
++                                </ul>
++                                <div class="program-card-content-result-list-title">
++                                    <p>Навыкам говорения:</p>
++                                </div>
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Читать статьи и отчеты на общие темы
++                                    </li>
++                                    <li class="beginner-item">Понимать современные романы
++                                    </li>
++                                </ul>
++                                <div class="program-card-content-result-list-title">
++                                    <p>Навыкам говорения:</p>
++                                </div>
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Писать четко и подробно на разнообразные темы
++                                    </li>
++                                    <li class="beginner-item">Писать эссе и отчеты
++                                    </li>
++                                </ul>
++                            </div>
++                        </div>
++                        <div class="program-card-content-img">
++                            <img src="img/Inter.png" alt="">
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++        <div class="program-card program-card5">
++            <div class="container">
++                <div class="program-card-title title2">
++                    <h2>Upper-Intermediate</h2>
++                </div>
++                <div class="program-card-content">
++                    <div class="program-card-content-row">
++                        <div class="program-card-content-text">
++                            <div class="program-card-content-module-title title4">
++                                <h3>О модуле</h3>
++                            </div>
++                            <div class="program-card-content-module-subtitle">
++                                <p>Уровень Advanced (C2): Практически полное владение языком. Умение читать сложные и
++                                    абстрактные тексты, участие в дискуссиях на высоком уровне, написание
++                                    структурированных
++                                    и креативных текстов.</p>
++                            </div>
++                            <div class="program-card-content-result-title title4">
++                                <h3>По итогу модуля вы сможете:</h3>
++                            </div>
++                            <div class="program-card-content-result-list">
++                                <ul class="beginner-list">
++                                    <li class="beginner-item">Овладеть временами Present, Past, Perfect и Future,
++                                        включая их
++                                        разнообразные формы
++                                    </li>
++                                    <li class="beginner-item">Изучить использование условных конструкций и пассивного
++                                        залога
++                                    </li>
++                                    <li class="beginner-item">Развивать разговорные навыки, включая темы общения и
++                                        альтернативные способы путешествий
++                                    </li>
++                                    <li class="beginner-item">Обсуждать традиции, мировые проблемы и экологию с
++                                        аргументами
++                                    </li>
++                                    <li class="beginner-item">Развивать творческие навыки, понимать психологию
++                                        человеческого
++                                        поведения и накапливать знания
++                                    </li>
++                                    <li class="beginner-item">Анализировать когнитивные процессы, осознавать
++                                        экологическую
++                                        устойчивость
++                                    </li>
++                                    <li class="beginner-item">Применять модальные глаголы, косвенную речь и
++                                        репортирование
++                                    </li>
++                                    <li class="beginner-item">Применять относительные и причастные предложения,
++                                        создавать
++                                        конструкции с союзами и предлогами
++                                    </li>
++                                    <li class="beginner-item">Овладевать позицией наречий и их разнообразными видами
++                                    </li>
++                                </ul>
++                            </div>
++                        </div>
++                        <div class="program-card-content-img">
++                            <img src="img/upper.png" alt="">
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="ask">
++        <div class="container">
++            <div class="ask-row">
++                <div class="ask-content">
++                    <div class="ask-title title">
++                        <h2>Часто спрашивают</h2>
++                    </div>
++                    <div class="ask-cards">
++                        <div class="ask-card">
++                            <div class="ask-card-question">
++                                <p>— Как долго курс будет у меня?</p>
++                            </div>
++                            <div class="ask-card-response">
++                                <p>— Доступ к курсу будет открыт вам на 1 год 🚀</p>
++                            </div>
++                        </div>
++                        <div class="ask-card">
++                            <div class="ask-card-question">
++                                <p>— Я могу заходить только через компьютер?</p>
++                            </div>
++                            <div class="ask-card-response">
++                                <p>— Да, на данный момент на платформе доступна только на компьютере. В скором времени
++                                    мы
++                                    опубликуем мобильную версию, а также мобильное приложение 😎</p>
++                            </div>
++                        </div>
++                        <div class="ask-card">
++                            <div class="ask-card-question">
++                                <p>— Как участвовать в рейтинге?</p>
++                            </div>
++                            <div class="ask-card-response">
++                                <p>— Купив курс вы автоматически добавляетесь в рейтинг 😊</p>
++                            </div>
++                        </div>
++                        <div class="ask-card">
++                            <div class="ask-card-question">
++                                <p>— За сколько времени можно пройти весь курс?</p>
++                            </div>
++                            <div class="ask-card-response">
++                                <p>— При интенсивном подходе можно пройти все модули за несколько месяцев. Важно не
++                                    пренебрегать качеством выполнения заданий и делать акцент на практику.</p>
++                            </div>
++                        </div>
++                        <div class="ask-card">
++                            <div class="ask-card-question">
++                                <p>Я смогу разобраться с платформой сам?</p>
++                            </div>
++                            <div class="ask-card-response">
++                                <p>— Наша платформа интуитивно понятна и не содержит ничего лишнего, но наши менеджеры
++                                    обязательно помогут вам с обучением, а также вы можете увидеть видеоинструкцию
++                                    тут</p>
++                            </div>
++                        </div>
++                        <div class="ask-card">
++                            <div class="ask-card-question">
++                                <p>Как получить сертификат?</p>
++                            </div>
++                            <div class="ask-card-response">
++                                <p>— Достаточно пройти итоговый тест, и сертификат придёт вам на почту 😌</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="ask-form">
++                    <form>
++                        <div class="ask-form-row">
++                            <div class="form-title">
++                                Остались вопросы?
++                            </div>
++                            <div class="form-subtitle">
++                                Оставьте заявку, мы ответим <br> вам как можно скорее
++                            </div>
++                        </div>
++                        <div class="form-name">
++                            <input type="text" name="name" placeholder="Ваше имя">
++                        </div>
++                        <div class="form-phone">
++                            <input type="text" name="phone" placeholder="+7 (">
++                        </div>
++                        <div class="form-email">
++                            <input type="text" name="email" placeholder="E-mail">
++                        </div>
++                        <div class="form-text">
++                            <p>Отправляя заявку, вы соглашаетесь с нашей <br> <span>политикой конфиденциальности</span>
++                            </p>
++                        </div>
++                        <div class="form-button button">
++                            <a href="#">Отправить</a>
++                        </div>
++                    </form>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="form">
++        <div class="container">
++            <div class="ask-form1">
++                <form>
++                    <div class="ask-form-row">
++                        <div class="form-title">
++                            Остались вопросы?
++                        </div>
++                        <div class="form-subtitle">
++                            Оставьте заявку, мы ответим <br> вам как можно скорее
++                        </div>
++                    </div>
++                    <div class="form-name">
++                        <input type="text" name="name" placeholder="Ваше имя">
++                    </div>
++                    <div class="form-phone">
++                        <input type="text" name="phone" placeholder="+7 (">
++                    </div>
++                    <div class="form-email">
++                        <input type="text" name="email" placeholder="E-mail">
++                    </div>
++                    <div class="form-text">
++                        <p>Отправляя заявку, вы соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
++                    </div>
++                    <div class="form-button button">
++                        <a href="#">Отправить</a>
++                    </div>
++                </form>
++            </div>
++        </div>
++    </section>
++    <section class="timer">
++        <div class="container">
++            <div class="timer-row">
++                <div class="timer-text">
++                    <p>Успейте приобрести <br> весь курс по 60% скидке </p>
++                </div>
++                <div class="timer-main1">
++                    <span class="hours1">12 </span>: <span class="minutes1">24 </span>: <span
++                        class="seconds1"> 57</span>
++                </div>
++                <div class="timer-button">
++                    <a href="#">Получить скидку %</a>
++                </div>
++            </div>
++        </div>
++    </section>
++    <section class="timer-min">
++        <div class="container">
++            <div class="timer-row">
++                <div class="timer-text">
++                    <p>Успейте приобрести <br> весь курс по 60% скидке </p>
++                </div>
++                <div class="timer-main2">
++                    <span class="hours2">12 </span>: <span class="minutes2">24 </span>: <span
++                        class="seconds2"> 57</span>
++                </div>
++            </div>
++            <div class="timer-button">
++                <a href="#">Получить скидку %</a>
++            </div>
++        </div>
++    </section>
++</main>
++<footer class="footer">
++    <div class="container">
++        <div class="footer-row">
++            <div class="footer-logo">
++                <img src="img/logo2.png" alt="">
++                <a href="#" class="logo">iqra</a>
++                <div class="footer-logo-rights">
++                    <a href="#">Все права защищены</a>
++                </div>
++                <div class="footer-logo-text">Копирование и распространение материалов курса строго запрещено и
++                    карается
++                    законом
++                </div>
++            </div>
++            <div class="footer-useful">
++                <div class="useful-title">
++                    <h3>Полезное</h3>
++                </div>
++                <div class="useful-item">
++                    <a href="#">Лайфхаки по-английски</a>
++                </div>
++                <div class="useful-item">
++                    <a href="#">Сколько стоит жить в США</a>
++                </div>
++                <div class="useful-item">
++                    <a href="#">Как за месяц поднять уровень</a>
++                </div>
++            </div>
++            <div class="footer-social">
++                <div class="social-title">
++                    <h3>Соц. сети</h3>
++                </div>
++                <div class="social-item">
++                    <a href="#">Instagram — свежие новости</a>
++                </div>
++                <div class="social-item">
++                    <a href="#">Telegram — полезные штучки</a>
++                </div>
++                <div class="social-item">
++                    <a href="#">TikTok — мемы на английском</a>
++                </div>
++            </div>
++            <div class="footer-contacts">
++                <div class="contacts-title">
++                    <h3>Контакты</h3>
++                </div>
++                <div class="contacts-item">
++                    +7 (795) 435-53-65
++                </div>
++                <div class="contacts-item">
++                    info@iqra.space
++                </div>
++                <div class="contacts-item">
++                    Варламова 27А, Алматы
++                </div>
++            </div>
++            <div class="footer-buttons">
++                <div class="button-profile">
++                    <a href="#">Кабинет</a>
++                </div>
++                <div class="button-to-header">
++                    <a href="#">Наверх ↑</a>
++                </div>
++            </div>
++        </div>
++        <div class="footer-buttons-min">
++            <div class="footer-buttons-min-row">
++                <div class="button-profile">
++                    <a href="#">Кабинет</a>
++                </div>
++                <div class="button-to-header">
++                    <a href="#">Наверх</a>
++                </div>
++            </div>
++        </div>
++    </div>
++</footer>
++<script src="js/main.js"></script>
++</body>
++</html>
+Index: img/phone/open.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/phone/open.svg b/img/phone/open.svg
+new file mode 100644
+--- /dev/null	(date 1695802963202)
++++ b/img/phone/open.svg	(date 1695802963202)
+@@ -0,0 +1,4 @@
++<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M0 15L30 15" stroke="white" stroke-width="4"/>
++<path d="M15 30L15 8.65459e-06" stroke="white" stroke-width="4"/>
++</svg>
+Index: img/phone/close.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/phone/close.svg b/img/phone/close.svg
+new file mode 100644
+--- /dev/null	(date 1695802950341)
++++ b/img/phone/close.svg	(date 1695802950341)
+@@ -0,0 +1,4 @@
++<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M4.39355 4.39331L25.6068 25.6065" stroke="white" stroke-width="4"/>
++<path d="M4.39355 25.6067L25.6068 4.39349" stroke="white" stroke-width="4"/>
++</svg>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1695806543203)
++++ b/.idea/vcs.xml	(date 1695806543203)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: img/nav-close.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/nav-close.svg b/img/nav-close.svg
+new file mode 100644
+--- /dev/null	(date 1695714356768)
++++ b/img/nav-close.svg	(date 1695714356768)
+@@ -0,0 +1,3 @@
++<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path fill-rule="evenodd" clip-rule="evenodd" d="M25 27.4179L15.1673 37.2506L13.166 35.2494L22.9988 25.4167L13.166 15.584L15.1673 13.5827L25 23.4154L34.8327 13.5827L36.834 15.584L27.0012 25.4167L36.834 35.2494L34.8327 37.2506L25 27.4179ZM25 47.1698C37.244 47.1698 47.1698 37.244 47.1698 25C47.1698 12.756 37.244 2.83019 25 2.83019C12.756 2.83019 2.83019 12.756 2.83019 25C2.83019 37.244 12.756 47.1698 25 47.1698ZM25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z" fill="black"/>
++</svg>
+Index: img/nav-open.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/nav-open.svg b/img/nav-open.svg
+new file mode 100644
+--- /dev/null	(date 1695711459689)
++++ b/img/nav-open.svg	(date 1695711459689)
+@@ -0,0 +1,3 @@
++<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path fill-rule="evenodd" clip-rule="evenodd" d="M35.8333 17.0833V19.5833H14.1667V17.0833H35.8333ZM35.8333 30.4167V32.9167H14.1667V30.4167H35.8333ZM25 47.5C37.4264 47.5 47.5 37.4264 47.5 25C47.5 12.5736 37.4264 2.5 25 2.5C12.5736 2.5 2.5 12.5736 2.5 25C2.5 37.4264 12.5736 47.5 25 47.5ZM35.8333 26.25H14.1667V23.75H35.8333V26.25ZM25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z" fill="black"/>
++</svg>
+Index: img/Vector 106.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/Vector 106.svg b/img/Vector 106.svg
+new file mode 100644
+--- /dev/null	(date 1695378072859)
++++ b/img/Vector 106.svg	(date 1695378072859)
+@@ -0,0 +1,9 @@
++<svg width="1400" height="1170" viewBox="0 0 1400 1170" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path opacity="0.14" d="M1523.16 243.352C1337.88 -19.0529 577.659 -154.35 612.012 476.529C652.429 1218.78 145.44 1490.94 -39.9569 942.004C-188.274 502.857 48.7564 -130.568 185.812 -392.387" stroke="url(#paint0_linear_29_263)" stroke-width="206"/>
++<defs>
++<linearGradient id="paint0_linear_29_263" x1="344" y1="234" x2="507.5" y2="986" gradientUnits="userSpaceOnUse">
++<stop stop-color="white"/>
++<stop offset="1" stop-color="white" stop-opacity="0"/>
++</linearGradient>
++</defs>
++</svg>
+Index: img/profile.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/profile.svg b/img/profile.svg
+new file mode 100644
+--- /dev/null	(date 1695632534852)
++++ b/img/profile.svg	(date 1695632534852)
+@@ -0,0 +1,10 @@
++<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
++<g clip-path="url(#clip0_29_460)">
++<path d="M15.0956 6.52427L15.0945 6.52324L8.97574 0.404678C8.71491 0.143701 8.36815 0 7.99933 0C7.63049 0 7.28373 0.143613 7.02281 0.404561L0.907176 6.52002C0.905126 6.52207 0.903075 6.52424 0.901024 6.52632C0.365419 7.06497 0.366356 7.93895 0.903661 8.47626C1.14911 8.72186 1.47334 8.86409 1.81998 8.87897C1.83404 8.88035 1.84825 8.88103 1.86255 8.88103H2.10641V13.384C2.10641 14.275 2.8314 15 3.72266 15H6.11651C6.35915 15 6.55597 14.8033 6.55597 14.5605V11.0303C6.55597 10.6237 6.88673 10.2929 7.29334 10.2929H8.7053C9.11194 10.2929 9.44265 10.6237 9.44265 11.0303V14.5605C9.44265 14.8033 9.63937 15 9.8821 15H12.276C13.1672 15 13.8922 14.275 13.8922 13.384V8.88105H14.1184C14.4871 8.88105 14.8339 8.73744 15.0949 8.47652C15.6328 7.93831 15.633 7.06283 15.0956 6.52427Z" fill="black"/>
++</g>
++<defs>
++<clipPath id="clip0_29_460">
++<rect width="15" height="15" fill="white" transform="translate(0.5)"/>
++</clipPath>
++</defs>
++</svg>
+Index: img/close1.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/close1.svg b/img/close1.svg
+new file mode 100644
+--- /dev/null	(date 1695591932504)
++++ b/img/close1.svg	(date 1695591932504)
+@@ -0,0 +1,4 @@
++<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M7.32227 7.32227L42.6776 42.6776" stroke="white" stroke-width="4"/>
++<path d="M7.32227 42.6777L42.6776 7.3224" stroke="white" stroke-width="4"/>
++</svg>
+Index: img/open1.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/open1.svg b/img/open1.svg
+new file mode 100644
+--- /dev/null	(date 1695591920236)
++++ b/img/open1.svg	(date 1695591920236)
+@@ -0,0 +1,4 @@
++<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M0 24.9999L50 24.9999" stroke="white" stroke-width="4"/>
++<path d="M25 50.0001L25 7.24792e-05" stroke="white" stroke-width="4"/>
++</svg>
+Index: .idea/jsLibraryMappings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jsLibraryMappings.xml b/.idea/jsLibraryMappings.xml
+new file mode 100644
+--- /dev/null	(date 1695591717220)
++++ b/.idea/jsLibraryMappings.xml	(date 1695591717220)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptLibraryMappings">
++    <file url="PROJECT" libraries="{jquery}" />
++  </component>
++</project>
+\ No newline at end of file
+Index: img/open.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/open.svg b/img/open.svg
+new file mode 100644
+--- /dev/null	(date 1695590685632)
++++ b/img/open.svg	(date 1695590685632)
+@@ -0,0 +1,3 @@
++<svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M2.5 21.3848L20 10.6155L37.5 21.3848" stroke="black" stroke-width="3"/>
++</svg>
+Index: img/logo.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/logo.svg b/img/logo.svg
+new file mode 100644
+--- /dev/null	(date 1695224421191)
++++ b/img/logo.svg	(date 1695224421191)
+@@ -0,0 +1,5 @@
++<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M0 30C0 17.206 0 10.8089 3.38149 6.40209C4.25204 5.26756 5.26756 4.25204 6.40209 3.38149C10.8089 0 17.206 0 30 0C42.794 0 49.1911 0 53.5979 3.38149C54.7324 4.25204 55.748 5.26756 56.6185 6.40209C60 10.8089 60 17.206 60 30C60 42.794 60 49.1911 56.6185 53.5979C55.748 54.7324 54.7324 55.748 53.5979 56.6185C49.1911 60 42.794 60 30 60C17.206 60 10.8089 60 6.40209 56.6185C5.26756 55.748 4.25204 54.7324 3.38149 53.5979C0 49.1911 0 42.794 0 30Z" fill="black"/>
++<path d="M17.507 17.4547H17.504C17.3363 17.4543 17.1702 17.4856 17.0153 17.5467C16.8604 17.6078 16.7197 17.6975 16.6014 17.8106C16.4808 17.9246 16.3852 18.0602 16.3201 18.2096C16.255 18.359 16.2218 18.5192 16.2223 18.681V37.0695C16.2223 37.7439 16.8008 38.2938 17.5121 38.2955C20.5106 38.3023 25.5344 38.8973 29.0001 42.3497V23.1056C29.0001 22.877 28.9388 22.6623 28.823 22.4846C25.9785 18.1239 20.5123 17.4614 17.507 17.4547ZM43.778 37.0695V18.6809C43.778 18.3518 43.6433 18.0427 43.3988 17.8105C43.2806 17.6974 43.1399 17.6077 42.985 17.5466C42.8301 17.4855 42.6641 17.4542 42.4964 17.4545H42.4933C39.488 17.4614 34.0218 18.1239 31.1772 22.4846C31.0615 22.6623 31.0003 22.877 31.0003 23.1056V42.3496C34.466 38.8972 39.4897 38.3022 42.4883 38.2954C43.1994 38.2937 43.778 37.7437 43.778 37.0695Z" fill="white"/>
++<path d="M46.712 21.6954H45.7779V37.0696C45.7779 38.7913 44.3044 40.1952 42.493 40.1995C39.9495 40.2052 35.7558 40.6787 32.7858 43.3546C37.9225 42.1573 43.3376 42.9356 46.4236 43.6051C46.6127 43.6466 46.8091 43.6469 46.9983 43.6058C47.1875 43.5648 47.3644 43.4835 47.5159 43.3681C47.6673 43.2536 47.7895 43.1079 47.8734 42.9421C47.9572 42.7762 48.0005 42.5944 48 42.4103V22.9215C48.0001 22.2455 47.4222 21.6954 46.712 21.6954ZM14.2221 37.0696V21.6954H13.288C12.5779 21.6954 12 22.2455 12 22.9215V42.4099C12 42.7849 12.1765 43.1341 12.4841 43.3678C12.6356 43.4832 12.8125 43.5645 13.0017 43.6056C13.1908 43.6466 13.3873 43.6463 13.5764 43.6048C16.6624 42.9352 22.0776 42.157 27.2141 43.3542C24.2442 40.6784 20.0505 40.2051 17.507 40.1994C15.6958 40.1952 14.2221 38.7913 14.2221 37.0696Z" fill="white"/>
++</svg>
+Index: css/reset.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/reset.css b/css/reset.css
+new file mode 100644
+--- /dev/null	(date 1695543713305)
++++ b/css/reset.css	(date 1695543713305)
+@@ -0,0 +1,88 @@
++/* Reset and base styles  */
++* {
++    padding: 0;
++    margin: 0;
++    border: none;
++}
++
++*,
++*::before,
++*::after {
++    box-sizing: border-box;
++}
++
++/* Links */
++
++a, a:link, a:visited  {
++    text-decoration: none;
++}
++
++a:hover  {
++    text-decoration: none;
++}
++
++/* Common */
++
++aside, nav, footer, header, section, main {
++    display: block;
++}
++
++h1, h2, h3, h4, h5, h6, p {
++    font-size: inherit;
++    font-weight: inherit;
++}
++
++ul, ul li {
++    list-style: none;
++}
++
++img {
++    vertical-align: top;
++}
++
++img, svg {
++    max-width: 100%;
++    height: auto;
++}
++
++address {
++    font-style: normal;
++}
++
++/* Form */
++
++input, textarea, button, select {
++    font-family: inherit;
++    font-size: inherit;
++    color: inherit;
++    background-color: transparent;
++}
++
++input::-ms-clear {
++    display: none;
++}
++
++button, input[type="submit"] {
++    display: inline-block;
++    box-shadow: none;
++    background: transparent none;
++    cursor: pointer;
++}
++
++input:focus, input:active,
++button:focus, button:active {
++    outline: none;
++}
++
++button::-moz-focus-inner {
++    padding: 0;
++    border: 0;
++}
++
++label {
++    cursor: pointer;
++}
++
++legend {
++    display: block;
++}
+\ No newline at end of file
+Index: img/close.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/close.svg b/img/close.svg
+new file mode 100644
+--- /dev/null	(date 1695590699755)
++++ b/img/close.svg	(date 1695590699755)
+@@ -0,0 +1,3 @@
++<svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M37.5 10.6157L20 21.385L2.5 10.6157" stroke="black" stroke-width="3"/>
++</svg>
+Index: js/main.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/main.js b/js/main.js
+new file mode 100644
+--- /dev/null	(date 1695714714727)
++++ b/js/main.js	(date 1695714714727)
+@@ -0,0 +1,190 @@
++window.addEventListener('DOMContentLoaded', () =>{
++    const deadline = '2023-10-28';
++
++    function getTimeRemaining(endtime) {
++        const t =  Date.parse(deadline) - new Date(),
++            hours = Math.floor((t / (1000 * 60 * 60) % 24)),
++            minutes = Math.floor((t / 1000 / 60) % 60),
++            seconds = Math.floor((t / 1000) % 60);
++
++        return {
++            'total' : t,
++            hours,minutes,seconds
++        };
++    }
++
++    function getZeroNum(num) {
++        if (num >= 0 && num < 10) {
++            return '0' + num;
++        } else {
++            return num;
++        }
++    }
++
++    function setClock(selector, endtime) {
++        const timer = document.querySelector(selector),
++            hours = timer.querySelector(".hours"),
++            minutes = timer.querySelector(".minutes"),
++            seconds = timer.querySelector(".seconds"),
++            timeInterval = setInterval(upateClock, 1000);
++
++        upateClock();
++
++        function upateClock() {
++            const t1 = getTimeRemaining(endtime);
++
++            hours.innerHTML = getZeroNum(t1.hours);
++            minutes.innerHTML = getZeroNum(t1.minutes);
++            seconds.innerHTML = getZeroNum(t1.seconds);
++
++
++            if (t1.total <= 0){
++                clearInterval(timeInterval);
++            }
++
++        }
++    }
++
++
++    function getTimeRemaining1(endtime) {
++        const t1 =  Date.parse(deadline) - new Date(),
++            hours = Math.floor((t1 / (1000 * 60 * 60) % 24)),
++            minutes = Math.floor((t1 / 1000 / 60) % 60),
++            seconds = Math.floor((t1 / 1000) % 60);
++
++        return {
++            'total' : t1,
++            hours,minutes,seconds
++        };
++    }
++
++    function setClock1(selector, endtime) {
++        const timer = document.querySelector(selector),
++            hours = timer.querySelector(".hours1"),
++            minutes = timer.querySelector(".minutes1"),
++            seconds = timer.querySelector(".seconds1"),
++            timeInterval = setInterval(upateClock1, 1000);
++
++        upateClock1();
++
++        function upateClock1() {
++            const t = getTimeRemaining1(endtime);
++
++            hours.innerHTML = getZeroNum(t.hours);
++            minutes.innerHTML = getZeroNum(t.minutes);
++            seconds.innerHTML = getZeroNum(t.seconds);
++
++
++            if (t.total <= 0){
++                clearInterval(timeInterval);
++            }
++
++        }
++    }
++
++
++
++
++    function getTimeRemaining2(endtime) {
++        const t2 =  Date.parse(deadline) - new Date(),
++            hours = Math.floor((t2 / (1000 * 60 * 60) % 24)),
++            minutes = Math.floor((t2 / 1000 / 60) % 60),
++            seconds = Math.floor((t2 / 1000) % 60);
++
++        return {
++            'total' : t2,
++            hours,minutes,seconds
++        };
++    }
++
++    function setClock2(selector, endtime) {
++        const timer = document.querySelector(selector),
++            hours = timer.querySelector(".hours2"),
++            minutes = timer.querySelector(".minutes2"),
++            seconds = timer.querySelector(".seconds2"),
++            timeInterval = setInterval(upateClock2, 1000);
++
++        upateClock2();
++
++        function upateClock2() {
++            const t = getTimeRemaining2(endtime);
++
++            hours.innerHTML = getZeroNum(t.hours);
++            minutes.innerHTML = getZeroNum(t.minutes);
++            seconds.innerHTML = getZeroNum(t.seconds);
++
++
++            if (t.total <= 0){
++                clearInterval(timeInterval);
++            }
++
++        }
++    }
++
++
++    function getTimeRemaining3(endtime) {
++        const t3 =  Date.parse(deadline) - new Date(),
++            hours = Math.floor((t3 / (1000 * 60 * 60) % 24)),
++            minutes = Math.floor((t3 / 1000 / 60) % 60),
++            seconds = Math.floor((t3 / 1000) % 60);
++
++        return {
++            'total' : t3,
++            hours,minutes,seconds
++        };
++    }
++
++    function setClock3(selector, endtime) {
++        const timer = document.querySelector(selector),
++            hours = timer.querySelector(".hours3"),
++            minutes = timer.querySelector(".minutes3"),
++            seconds = timer.querySelector(".seconds3"),
++            timeInterval = setInterval(upateClock3, 1000);
++
++        upateClock3();
++
++        function upateClock3() {
++            const t = getTimeRemaining3(endtime);
++
++            hours.innerHTML = getZeroNum(t.hours);
++            minutes.innerHTML = getZeroNum(t.minutes);
++            seconds.innerHTML = getZeroNum(t.seconds);
++
++
++            if (t.total <= 0){
++                clearInterval(timeInterval);
++            }
++
++        }
++    }
++
++    setClock(".timer-main", deadline);
++    setClock1(".timer-main1", deadline);
++    setClock2(".timer-main2", deadline);
++    setClock3(".timer-main3", deadline);
++
++    $(document).ready(function (){
++        $('.ask-card-question').click(function(event){
++            $(this).toggleClass('active').next().slideToggle(300);
++        })
++    })
++
++    $(document).ready(function (){
++        $('.program-card-title').click(function(event){
++            $(this).toggleClass('active1').next().slideToggle(300);
++        })
++    })
++
++
++    const nav = document.querySelector('#nav'),
++        navBtn = document.querySelector('#nav-btn'),
++        navBtnImg = document.querySelector('#nav-btn-img');
++    navBtn.onclick = () => {
++        if (nav.classList.toggle('open')) {
++            navBtnImg.src = "./img/nav-close.svg";
++        } else {
++            navBtnImg.src = "./img/nav-open.svg";
++        }
++    }
++
++});
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1695222335719)
++++ b/.idea/.gitignore	(date 1695222335719)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1695222335321)
++++ b/.idea/modules.xml	(date 1695222335321)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/iqra.iml" filepath="$PROJECT_DIR$/.idea/iqra.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: css/media.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/media.css b/css/media.css
+new file mode 100644
+--- /dev/null	(date 1695805726887)
++++ b/css/media.css	(date 1695805726887)
+@@ -0,0 +1,693 @@
++@media (max-width: 1330px) {
++    .container {
++        max-width: 970px;
++    }
++}
++
++@media (max-width: 992px) {
++    .container {
++        max-width: 750px;
++    }
++    
++    .nav-list {
++        display: none;
++    }
++    
++    .nav-button {
++        display: block;
++    }
++
++    .header-nav.open {
++        display: block;
++        position: fixed;
++        top: 0;
++        bottom: 0;
++        right: 0;
++        left: 0;
++        z-index: 2;
++        background: #fff;
++        padding: 34px 0 0 119.5px;
++    }
++    .header-nav.open .nav-list {
++        display: flex;
++        top: 0;
++        bottom: 0;
++        right: 0;
++        left: 0;
++        z-index: 2;
++        background: #fff;
++        margin-top: 40px;
++        flex-direction: column;
++        row-gap: 30px;
++        font-size: 30px;
++        align-items: center;
++        font-family: VelaSansBold, serif;
++    }
++
++    .header-nav.open .header-button {
++        display: none;
++    }
++
++    .header-button {
++        margin-right: 25px;
++    }
++
++    .header-nav.open .nav-button {
++        position: absolute;
++        right: 120px;
++        top: 38px;
++    }
++
++
++    .header-content {
++        min-width: 410px;
++        padding-top: 25px;
++    }
++
++    .header-row {
++        align-items: flex-start;
++    }
++
++    .header-title.title {
++        font-size: 35px;
++    }
++
++    .header-subtitle {
++        font-size: 16px;
++    }
++
++    .header-content-button {
++        font-size: 20px;
++        padding: 18px 43px;
++        margin-left: 0;
++    }
++
++    .course {
++        margin-top: 70px;
++    }
++
++    .course-card-content {
++        padding-top: 48px;
++        padding-right: 3px;
++    }
++
++    .course-title.title, .you-can-title.title, .advantages-title.title, .program-title.title, .ask-title.title{
++        font-size: 35px;
++    }
++
++
++    .course-card-title{
++        font-size: 30px;
++    }
++
++    .process-card {
++        max-width: 350px;
++    }
++
++    .course-card-subtitle {
++        font-size: 18px;
++    }
++
++    .process-title.title2 {
++        font-size: 35px;
++        text-align: left;
++        padding-top: 40px;
++    }
++
++    .process-card-items {
++        padding: 20px;
++    }
++
++    .process-card-img {
++        max-width: 314px;
++    }
++
++    .process-card-title {
++        margin-top: 20px;
++        font-size: 30px;
++    }
++
++    .process-card-subtitle {
++        font-size: 16px;
++    }
++
++    .process-button.button {
++        padding: 25px 68px;
++    }
++
++    .process-demo {
++        padding: 25px 78px;
++    }
++
++    .advantages {
++        margin-top: 70px;
++    }
++
++    .advantages-content-card {
++        padding: 40px 40px 40px 240px;
++    }
++
++    .timer-min .timer-text , .timer-min1 .timer-text {
++        font-size: 25px;
++    }
++
++    .timer-main3 , .timer-main2 {
++        font-size: 70px;
++    }
++    
++    .program-card-content-row {
++        display: block;
++    }
++
++    .program-card-title {
++        font-size: 35px;
++    }
++
++    .program-card-title:after {
++        content: "";
++        background: url("/img/tablet/open1.png");
++        background-size: auto;
++        width: 35px;
++        height: 35px;
++        right: 0;
++        top: 50px;
++        position: absolute;
++    }
++    .program-card-title.active1:after {
++        content: "";
++        background: url("/img/tablet/close1.png");
++    }
++
++    .ask {
++        margin-top: 70px;
++
++    }
++
++    .ask-row {
++        display: block;
++    }
++
++    .ask-form-row {
++        display: flex;
++        align-items: center;
++    }
++
++    .form-title {
++        font-size: 35px;
++    }
++    .form-subtitle {
++        font-size: 16px;
++        margin-left: 20px;
++    }
++
++    .form-text {
++        font-size: 18px;
++    }
++
++    .form-button {
++        width: 100%;
++        padding: 20px 309px;
++        margin-left: 0;
++    }
++
++
++    .ask-form {
++        display: none;
++    }
++    
++    .form {
++        margin-top: 70px;
++        display: block;
++        background: #D095FF;
++        border-radius: 30px;
++        color: #fff;
++        padding: 40px 20px;
++    }
++
++    .footer-row {
++        display: flex;
++        justify-content: space-between;
++    }
++
++    .footer-useful {
++        margin-right: 50px;
++    }
++
++    .footer-contacts {
++        margin-right: 100px;
++    }
++
++
++
++
++
++
++    .footer-buttons {
++        display: none;
++    }
++    
++    .footer-buttons-min {
++        display: block;
++        margin-left: 0;
++    }
++
++    .footer-buttons-min-row {
++        display: flex;
++        gap: 20px;
++        flex: 1 1 auto;
++        padding-bottom: 40px;
++    }
++
++    .button-profile {
++        padding: 10px 151.5px 0 126.5px;
++        max-height: 45px;
++    }
++    .button-profile a {
++        width: 100%;
++    }
++
++    .button-profile:after {
++        content: "";
++    }
++
++
++
++    .button-to-header {
++        max-height: 45px;
++        padding: 10px 136px;
++    }
++
++}
++
++@media (max-width: 767px) {
++    .container {
++        max-width: none;
++    }
++
++    .logo {
++        margin-left: 10px;
++    }
++
++    .header-button {
++        padding: 16px 30px;
++        margin-right: 10px;
++    }
++
++    .header-row {
++        display: block;
++        text-align: center;
++    }
++
++    .header-title.title, .course-title.title, .you-can-title.title, .advantages-title.title, .program-title.title, .ask-title.title {
++        font-size: 30px;
++        padding: 0;
++    }
++
++    .header-subtitle {
++        font-size: 20px;
++    }
++
++    .header-row .header-content {
++        min-width: auto;
++        padding: 0;
++        margin: 0 auto;
++    }
++
++    .header-content-button {
++        margin: 0 auto;
++    }
++
++    .header-img {
++        margin-top: 30px;
++        padding-right: 25%;
++    }
++
++    .course {
++        text-align: center;
++    }
++
++    .course-title.title, .you-can-title.title {
++        font-size: 30px;
++    }
++    
++    .course-card.card1, .course-card.card2,.course-card.card3{
++        display: block;
++        text-align: left;
++    }
++
++    .course-card-img {
++        padding: 0 0 0 20px;
++    }
++
++    .course-card.card1 .course-card-content, .course-card.card2 .course-card-content, .course-card.card3 .course-card-content {
++        padding:0 30px 40px;
++    }
++
++    .course-card-title.title3 {
++        padding: 0;
++        font-size: 30px;
++        margin-top: 0;
++    }
++
++    .course-card-subtitle {
++        padding: 0;
++        font-size: 16px;
++    }
++
++    .you-can {
++        text-align: center;
++    }
++
++    .you-can-card {
++        text-align: left;
++    }
++    .you-can-card-num {
++        font-size: 50px;
++    }
++
++    .you-can-card-title {
++        min-width: auto;
++        margin-top: 20px;
++    }
++
++    .can-card1 .you-can-card-title, .can-card2 .you-can-card-title, .can-card3 .you-can-card-title, .can-card4 .you-can-card-title{
++        font-size: 25px;
++    }
++
++    .process-card {
++        margin: 0 auto;
++    }
++
++    .you-can-card-subtitle {
++        min-width: 300px;
++        font-size: 15px;
++        margin-top: 15px;
++    }
++
++    .process-title.title2 {
++        font-size: 30px;
++        text-align: center;
++    }
++
++    .process-row {
++        margin-top: 20px;
++        gap: 10px;
++    }
++
++    .process-buttons {
++        display: block;
++        padding-bottom: 40px;
++    }
++
++    .process-button.button {
++        padding: 25px 58.2px;
++        margin: 0;
++    }
++
++    .process-demo.button {
++        padding: 25px 65px;
++        margin:10px 0 0 0;
++    }
++
++    .advantages {
++        text-align: center;
++    }
++    
++    .advantages-content-card-row {
++        display: block;
++    }
++
++    .advantages-content-card {
++        padding: 40px 20px 198px;
++        text-align: center;
++        margin-bottom: 10px;
++    }
++
++    .advantages-content-card:last-child {
++        margin-bottom: 0;
++    }
++
++
++    .advantages-content-card-content-title {
++        font-size: 30px;
++        max-width: 100%;
++    }
++
++    .advantages-content-card-content-subtitle {
++        font-size: 16px;
++    }
++
++    .advantages-content-card-img {
++        position: absolute;
++        left: 22%;
++    }
++
++    .timer-min1 .timer-row {
++        display: block;
++        text-align: center;
++        padding: 40px 0 0 0;
++    }
++
++    .timer, .timer-min, .timer-min1 {
++        margin-top: 50px;
++    }
++
++    .timer-main3 {
++        margin-left: 0;
++        margin-top: 20px;
++    }
++
++    .timer-button {
++        margin-top: 30px;
++        padding: 15px 71px;
++    }
++
++    .program-card-title {
++        font-size: 25px;
++    }
++
++    .program-card-title:after {
++        content: "";
++        background: url("/img/phone/open.svg");
++        background-size: auto;
++        width: 30px;
++        height: 30px;
++        right: 20px;
++        top: 30px;
++        position: absolute;
++    }
++    .program-card-title.active1:after {
++        content: "";
++        background: url("/img/phone/close.svg");
++    }
++
++    .program-title {
++        text-align: center;
++    }
++
++    .program-card {
++        margin: 0 0 10px 0;
++        padding: 0;
++    }
++
++    .program-card-title {
++        padding: 30px 20px;
++    }
++
++    .program-card-title.active1 {
++        padding-left: 20px;
++    }
++
++    .program-card-content {
++        margin-top: 0;
++    }
++
++    .program-card-content-module-subtitle {
++        font-size: 16px;
++    }
++
++    .program-card-content-module-title.title4, .program-card-content-result-title.title4 {
++        font-size: 20px;
++    }
++
++    .program-card-content-result-list li {
++        font-size: 16px;
++    }
++
++
++
++}
++
++@media (max-width: 1370px) {
++.title2 {
++    text-align: center;
++}
++
++}
++
++@media (max-width: 1330px) {
++.nav-list {
++    gap: 40px;
++    margin-left: 20px;
++}
++.nav-link {
++    font-size: 16px;
++}
++.logo {
++    font-size: 22px;
++}
++.header-nav {
++    align-items: center;
++}
++
++
++
++.header-row {
++    gap: 41px;
++}
++
++.title {
++    font-size: 42px;
++}
++
++.header-demo {
++    display: none;
++}
++
++.course {
++    margin-top: 50px;
++}
++
++.course-row {
++    display: block;
++}
++
++.course-card {
++    display: flex;
++    align-items: center;
++    margin-bottom: 15px;
++}
++.course-card:last-child{
++    margin-bottom: 0;
++}
++
++
++.course-card-content {
++    padding: 40px 30px 20px;
++}
++
++.course-card-subtitle {
++    max-width: 750px;
++}
++
++.you-can-row {
++    display: block;
++}
++
++.you-can-card {
++    max-width: 100%;
++    margin-bottom: 20px;
++}
++.you-can-card:last-child{
++    margin-bottom: 0;
++}
++
++.you-can-card-subtitle {
++    max-width: 680px;
++}
++
++
++.advantages-row {
++    display: block;
++}
++
++.advantages-content-card:first-child {
++    margin-top: 20px;
++}
++
++.timer{
++    display: none;
++}
++
++.timer-min {
++    display: block;
++    padding: 20px 0 40px 0;
++
++}
++
++.timer1{
++    display: none;
++}
++
++.timer-min1 {
++    display: block;
++    padding: 20px 0 40px 0;
++
++}
++
++
++.timer-min .timer-button, .timer-min1 .timer-button {
++    width: 100%;
++    margin-left: 0;
++    padding: 15px;
++    text-align: center;
++}
++
++.program .program-card-title {
++    text-align: left;
++}
++
++.program-card-content-row {
++    gap: 5px;
++}
++
++.program-card-content-text {
++    padding: 30px 0 30px 30px;
++}
++
++.program-card-content-module-subtitle {
++    margin-top: 5px;
++}
++
++
++.program-card-content-result-title {
++    margin-top: 20px;
++    line-height: 1;
++}
++
++.program-card-content-result-list li{
++    font-family: VelaSansSemi, serif;
++    margin-bottom: 10px;
++    list-style: disc;
++    font-size: 12px;
++}
++
++.program-card-content-module-subtitle {
++    font-size: 12px;
++}
++
++.ask-card-question {
++    font-size: 22px;
++    max-width: 100%;
++}
++
++.ask-card-response {
++    font-size: 17px;
++}
++
++.ask-form form {
++    padding: 40px 30px;
++}
++
++.footer-row {
++    gap: 55px;
++}
++
++
++.footer-contacts , .footer-social , .footer-buttons , .footer-useful{
++    margin-left: 0;
++}
++
++
++
++}
+\ No newline at end of file
+Index: .idea/iqra.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/iqra.iml b/.idea/iqra.iml
+new file mode 100644
+--- /dev/null	(date 1695591717133)
++++ b/.idea/iqra.iml	(date 1695591717133)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="jquery" level="application" />
++  </component>
++</module>
+\ No newline at end of file
+Index: img/form-line.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/form-line.svg b/img/form-line.svg
+new file mode 100644
+--- /dev/null	(date 1695564457892)
++++ b/img/form-line.svg	(date 1695564457892)
+@@ -0,0 +1,3 @@
++<svg width="287" height="2" viewBox="0 0 287 2" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M0 1H287" stroke="white"/>
++</svg>
+Index: css/main.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/main.css b/css/main.css
+new file mode 100644
+--- /dev/null	(date 1695802153277)
++++ b/css/main.css	(date 1695802153277)
+@@ -0,0 +1,857 @@
++@import "./reset.css";
++
++@font-face {
++    font-family: "VelaSans";
++    src: local("VelaSans"),
++    url("/fonts/VelaSans-Regular.woff2"),
++    url("/fonts/VelaSans-Regular.woff"),
++    url("/fonts/VelaSans-Bold.woff2"),
++    url("/fonts/VelaSans-Bold.woff")
++}
++
++@font-face {
++    font-weight: 800;
++    font-family: VelaSansExtra;
++    src: local("VelaSans"),
++    url("/fonts/VelaSans-ExtraBold.woff2"),
++    url("/fonts/VelaSans-ExtraBold.woff")
++}
++
++@font-face {
++    font-family: VelaSansSemi;
++    src: local("VelaSans"),
++    url("/fonts/VelaSans-SemiBold.woff2"),
++    url("/fonts/VelaSans-SemiBold.woff");
++}
++
++@font-face {
++    font-family: VelaSansBold;
++    src: local("VelaSans"),
++    url("/fonts/VelaSans-Bold.woff2"),
++    url("/fonts/VelaSans-Bold.woff");
++}
++
++@font-face {
++    font-family: 'VelaSansMedium';
++    src: local("VelaSans"),
++    url("/fonts/VelaSans-Medium.woff2"),
++    url("/fonts/VelaSans-Medium.woff");
++
++}
++
++body {
++    font-family: VelaSans, serif;
++    color: #000;
++}
++
++.title {
++    font-family: VelaSansExtra, serif;
++    font-size: 50px;
++    line-height: 100%;
++}
++
++.title2 {
++    font-family: VelaSansExtra, serif;
++    font-size: 50px;
++    line-height: 100%;
++    color: #fff;
++}
++
++.title3 {
++    font-family: VelaSansExtra, serif;
++    font-size: 40px;
++    line-height: 100%;
++    color: #fff;
++}
++
++.title4 {
++    font-size: 30px;
++    font-family: VelaSansBold, serif;
++}
++
++.button {
++    display: inline-flex;
++    margin: 10px;
++    text-decoration: none;
++    position: relative;
++    overflow: hidden;
++    padding: 12px 30px;
++    color: #FFF;
++    transition: box-shadow 0.3s, transform 0.3s;
++    cursor: pointer;
++    font-family: VelaSansExtra, serif;
++    border-radius: 50px;
++    font-size: 25px;
++}
++.button:hover,
++.button:active,
++.button:focus {
++    transform: translateY(-4px);
++    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
++    color: #FFF;
++}
++.button:before {
++    content: "";
++    position: absolute;
++    top: 0;
++    left: -100%;
++    width: 100%;
++    height: 100%;
++    background: linear-gradient(-45deg, transparent, rgba(191, 226, 255, 0.3), transparent);
++    transition: left 0.7s;
++}
++.button:hover:before,
++.button:active:before,
++.button:focus:before {
++    left: 100%;
++}
++
++.container {
++    max-width: 1320px;
++    margin: 0 auto;
++    padding: 0 10px;
++}
++
++/* Header */
++
++.header {
++    padding-top: 30px;
++    background: url("/img/Ellipse 66.svg") no-repeat, url("/img/Ellipse2.png") no-repeat right top, url("/img/Ellipse3.png") no-repeat 270px 212px ;
++}
++
++.header-nav {
++    display: flex;
++    align-items: center;
++}
++
++.logo {
++    font-family: VelaSansExtra, serif;
++    color: #000;
++    font-size: 25px;
++    margin-left: 10px;
++    display: inline-block;
++    padding-top: 15px;
++}
++
++.nav {
++    margin-right: 50px;
++    flex: 1 1 auto;
++}
++
++
++
++.nav-list {
++    gap: 50px;
++    display: flex;
++    justify-content: flex-end;
++}
++
++.nav-link {
++    font-size: 18px;
++    color: #000;
++}
++
++.nav-button {
++    display: none;
++}
++
++.header-button {
++    display: inline-block;
++    padding: 20px 50px;
++    border: #1DAEFF 2px solid;
++    border-radius: 100px;
++}
++.header-button a{
++    color: #1DAEFF;
++    font-weight: bold;
++    font-size: 18px;
++}
++
++.header-row {
++    display: flex;
++    gap: 51px;
++    margin-top: 48px;
++    align-items: center;
++}
++
++.header-content {
++    max-width: 640px;
++}
++
++
++.header-subtitle {
++    margin-top: 20px;
++    font-size: 25px;
++}
++
++.header-img {
++    height: 100%;
++}
++
++.button a{
++    color: #fff;
++}
++
++.header-content-button {
++    padding: 25px 45px;
++    background: linear-gradient(#4FE779, #3EC965);
++    margin-left: 0;
++}
++
++.header-content-buttons {
++    margin-top: 30px;
++    display: flex;
++    align-items: center;
++}
++
++.header-demo a{
++    font-size: 25px;
++    color: #808080;
++}
++.header-demo:after{
++    content: url("/img/demo.png");
++    margin-left: 10px;
++    position: relative;
++    top: 2px;
++}
++/* course */
++
++.course-row {
++    margin-top: 40px;
++    display: flex;
++    justify-content: space-between;
++    column-gap: 20px;
++}
++
++.course-card {
++    border-radius: 30px;
++    width: 100%;
++}
++
++.card1 {
++    background: #D095FF;
++}
++
++.card2 {
++    background: #5FC5FF;
++}
++
++.card3 {
++    background: #F94848;
++}
++
++.course-card-img {
++    padding-top: 20px;
++    padding-left: 20px;
++}
++
++.course-card-title {
++    margin-top: 20px;
++    padding-left: 30px;
++}
++
++.course-card-subtitle {
++    font-family: VelaSansSemi, serif;
++    font-size: 20px;
++    color: #fff;
++    margin-top: 20px;
++    padding: 0 33px 40px 30px;
++}
++/* You-can*/
++.you-can {
++    margin-top: 100px;
++}
++
++.you-can-row {
++    margin-top: 40px;
++    display: flex;
++    justify-content: space-between;
++    flex-wrap: wrap;
++    gap: 20px;
++}
++
++.you-can-card {
++    max-width: 640px;
++    border-radius: 30px;
++    padding: 50px 70px 40px 30px;
++}
++
++.can-card1 {
++    border: #1DAEFF 5px solid;
++}
++.can-card2 {
++    border: #F94848 5px solid;
++}
++.can-card3 {
++    border: #D095FF 5px solid;
++}
++.can-card4 {
++    border: #FFB800 5px solid;
++}
++
++.you-can-card-num {
++    font-size: 70px;
++    font-weight: bold;
++    line-height: 100%;
++}
++.num1 {
++    color: #1DAEFF;
++}
++.num2 {
++    color: #F94848;
++}
++.num3 {
++    color: #D095FF;
++}
++.num4 {
++    color: #FFB800;
++}
++
++.you-can-card-title {
++    min-width: 535px;
++    margin-top: 46px;
++    font-family: VelaSansExtra, serif;
++    font-size: 30px;
++    line-height: 100%;
++}
++
++.you-can-card-subtitle {
++    margin-top: 10px;
++    font-size: 20px;
++}
++
++/* Process */
++
++.process {
++    margin: 100px 20px 0;
++    background: #3EC965 url("/img/process back.png") no-repeat ;
++    background-size: cover ;
++    border-radius: 50px;
++}
++
++.process-title {
++    padding-top: 80px;
++}
++
++.process-row {
++    margin-top: 40px;
++    display: flex;
++    flex-wrap: wrap;
++    gap: 20px;
++}
++
++.process-card {
++    background: #fff;
++    border-radius: 40px;
++    padding: 0;
++}
++
++.process-card-items {
++    padding: 30px;
++}
++
++
++.process-card-title {
++    font-family: VelaSansExtra, serif;
++    font-size: 40px;
++    line-height: 100%;
++    margin-top: 25px;
++}
++
++.process-card-subtitle {
++    font-size: 20px;
++    font-weight: 500;
++    max-width: 360px;
++    margin-top: 10px;
++}
++
++.process-buttons {
++    margin-top: 24px;
++    padding-bottom: 80px;
++    display: flex;
++    column-gap: 20px;
++    justify-content: center;
++}
++
++.process-button {
++    background: linear-gradient(#3D3D3D, #000);
++    padding: 25px 56px;
++    font-size: 25px;
++
++}
++
++.process-demo{
++    border: #fff 4px solid;
++    padding: 25px 66px;
++    font-size: 25px;
++}
++
++/* Advantages */
++.advantages {
++    margin-top: 100px;
++}
++
++
++.advantages-row{
++    display: flex;
++    justify-content: space-between;
++}
++
++.advantages-content-card {
++    width: 100%;
++    position: relative;
++    border-radius: 30px;
++    color: #fff;
++    margin-bottom: 20px;
++    overflow: hidden;
++}
++.advantages-content-card:last-child{
++    margin-bottom: 0;
++}
++
++.advantages-content-card1 {
++    background: #5FC5FF;
++}
++.advantages-content-card2 {
++    background: #FFB800;
++}
++.advantages-content-card3 {
++    background: #FF6A3A;
++}
++.advantages-content-card4 {
++    background: #EFB06B;
++}
++.advantages-content-card5 {
++    background: #AF88E8;
++}
++
++.advantages-content-card-row {
++    display: flex;
++}
++
++.advantages-content-card-img {
++    position: absolute;
++    left: 0;
++    bottom: 0;
++}
++
++.advantages-content-card {
++    padding: 40px 62px 40px 250px;
++}
++
++.advantages-content-card-content-subtitle {
++    font-family: VelaSansSemi, serif;
++    margin-top: 20px;
++    font-size: 20px;
++}
++
++/* timer */
++.timer , .timer-min, .timer-min1 {
++    margin-top: 100px;
++    background: #0263D1;
++    color: #fff;
++}
++
++.timer-row {
++    padding: 32px 0 32px;
++    display: flex;
++    justify-content: space-between;
++}
++
++.timer-text {
++    line-height: 120%;
++    font-size: 30px;
++    font-weight: bold;
++}
++
++.timer-main, .timer-main1, .timer-main2, .timer-main3 {
++    font-family: VelaSansExtra, serif;
++    line-height: 1;
++    font-size: 70px;
++    margin-left: 44px;
++}
++
++.timer-button {
++    display: inline-block;
++    position: relative;
++    font-family: VelaSansExtra, serif;
++    background: #fff;
++    border-radius: 100px;
++    font-size: 25px;
++    padding: 25px 90px;
++    margin-left: 89px;
++}
++.timer-button a {
++    color: #0263D1;
++}
++
++/* Program */
++.program {
++    margin-top: 100px;
++}
++
++.program-card-title {
++    padding-top: 50px;
++    position: relative;
++    cursor: pointer;
++}
++.program-card-title:after {
++    content: "";
++    background: url("/img/open1.svg");
++    width: 50px;
++    height: 50px;
++    right: 0;
++    top: 50px;
++    position: absolute;
++}
++.program-card-title.active1:after {
++    content: "";
++    background: url("/img/close1.svg");
++}
++.program-card-title.active1 {
++    padding-left: 0;
++}
++
++.program-card {
++    border-radius: 50px;
++    margin: 0 20px 20px;
++    position: relative;
++    padding-bottom: 60px;
++}
++
++.program-card:last-child {
++    margin-bottom: 0;
++}
++
++.program-card1 {
++    background: #5FC5FF url("/img/beginner-back.png") no-repeat;
++    margin-top: 40px;
++}
++.program-card2 {
++    background: #D095FF url("/img/Elementary-back.png") no-repeat top right;
++}
++.program-card3 {
++    background: #F8C94D url("/img/preinter-back.png") no-repeat top right;
++}
++.program-card4 {
++    background: #3EC965 url("/img/Inter-back.png") no-repeat top right;
++}
++.program-card5 {
++    background: #F94848 url("/img/upper-back.png") no-repeat 40px 40px ;
++}
++
++.program-card-content {
++    background: #fff;
++    border-radius: 30px;
++    display: none;
++    margin-top: 30px;
++}
++
++.program-card-content-row {
++    display: flex;
++    align-items: flex-end;
++    gap: 20px;
++}
++
++.program-card-content-text {
++    padding: 50px 0 50px 50px;
++}
++
++.program-card-content-module-subtitle {
++    font-size: 20px;
++    margin-top: 20px;
++    max-width: 520px;
++}
++
++.program-card-content-result-title {
++    margin-top: 40px;
++}
++
++.program-card-content-result-list {
++    margin-top: 20px;
++    max-width: 485px;
++}
++.program-card-content-result-list li{
++    margin-left: 20px;
++    margin-bottom: 10px;
++    list-style: disc;
++    font-size: 16px;
++}
++.program-card-content-result-list li:last-child {
++    margin-bottom: 0;
++}
++
++
++
++.program-card2 .program-card-content-module-subtitle p {
++    max-width: 473px;
++}
++.program-card2 .program-card-content-result-list{
++    max-width: 530px;
++}
++.program-card2 .program-card-content-text {
++    padding-bottom: 72px;
++}
++
++
++.program-card3 .program-card-content-module-subtitle p{
++    max-width: 547px;
++}
++.program-card3 .program-card-content-result-list{
++    max-width: 530px;
++}
++
++
++
++.program-card-content-result-list-title p {
++    font-family: VelaSansBold, serif;
++}
++.program-card-content-result-list-title {
++    margin-top: 10px;
++    margin-bottom: 10px;
++}
++.program-card4 .program-card-content-text {
++    padding-bottom: 50px;
++}
++
++
++.program-card5 .program-card-content-text {
++    padding-bottom: 50px;
++    max-width: 530px;
++}
++
++
++
++/* Ask */
++.ask {
++    margin-top: 100px;
++}
++
++.ask-row {
++    display: flex;
++    justify-content: space-between;
++}
++
++.ask-cards {
++    margin-top: 40px;
++}
++
++.ask-card {
++    background: #F4F4F4;
++    border-radius: 20px;
++    padding: 30px 132px 30px 30px ;
++    width: 100%;
++    margin-bottom: 10px;
++    position: relative;
++    cursor: pointer;
++}
++.ask-card:last-child {
++    margin-bottom: 0;
++}
++
++.ask-card-question {
++    font-family: VelaSansBold, serif;
++    font-size: 25px;
++    line-height: 130%;
++}
++.ask-card-question:after {
++    content: url("/img/close.svg") ;
++    position: absolute;
++    right: 30px;
++    top: 30px;
++}
++
++.ask-card-question.active:after {
++    content: url("/img/open.svg");
++    position: absolute;
++    right: 30px;
++    top: 30px;
++}
++
++
++
++.ask-card-response {
++    display: none;
++    font-size: 20px;
++    line-height: 130%;
++    margin-top: 15px;
++}
++
++.form {
++    display: none;
++}
++
++.ask-form {
++    background: #D095FF;
++    border-radius: 40px;
++    margin-left: 20px;
++    max-height: 700px;
++}
++
++.ask-form form{
++    color: #fff;
++    padding: 60px 50px;
++}
++
++.form-title {
++    font-family: VelaSansExtra, serif;
++    font-size: 40px;
++    line-height: 1;
++}
++
++.form-subtitle {
++    font-family: VelaSansMedium, serif;
++    font-size: 25px;
++    margin-top: 15px;
++}
++
++.ask-form input {
++    color: #000;
++    opacity: 50%;
++    font-size: 25px;
++    width: 100%;
++    text-decoration: none;
++
++}
++
++.form-name {
++    margin-top: 20px;
++    background: #fff;
++    border-radius: 20px;
++    padding: 27px 0 28px 27px;
++}
++
++.form-phone {
++    margin-top: 10px;
++    background: #fff;
++    border-radius: 20px;
++    padding: 27px 0 28px 27px;
++}
++
++.form-email {
++    margin-top: 10px;
++    background: #fff;
++    border-radius: 20px;
++    padding: 27px 0 28px 27px;
++}
++
++.form-text {
++    font-family: VelaSansMedium, serif;
++    font-size: 18px;
++    margin-top: 10px;
++    position: relative;
++}
++
++.form-text:after {
++    content: url("/img/form-line.svg");
++    position: absolute;
++    left: 0;
++    top: 31px;
++}
++
++.form-button{
++    background: linear-gradient(#333333, #000);
++    padding: 27px 147px;
++    margin-top: 20px;
++}
++
++.footer {
++    background: #000;
++    color: #fff;
++}
++.footer a {
++    color: #fff;
++}
++
++.footer-row {
++    display: flex;
++    align-items: flex-end;
++    padding: 40px 0 56px 0;
++    flex-wrap: wrap;
++}
++
++.footer-logo {
++    max-width: 200px;
++}
++
++
++
++.footer-logo-rights {
++    margin-top: 15px;
++    font-family: VelaSansBold, serif;
++    font-size: 16px;
++    opacity: 0.8;
++}
++
++.footer-logo-text {
++    margin-top: 5px;
++    font-size: 12px;
++    opacity: 0.8;
++}
++
++.footer-useful {
++    margin-left: 41px;
++    max-width: 259px;
++}
++
++.useful-title, .social-title, .contacts-title {
++    font-family: VelaSansExtra, serif;
++    font-size: 25px;
++}
++
++.useful-item, .social-item, .contacts-item {
++    margin-top: 10px;
++    font-size: 18px;
++    opacity: 0.8;
++}
++
++.footer-social {
++    margin-left: 71px;
++}
++
++.footer-contacts {
++    margin-left: 78px;
++}
++
++.footer-buttons {
++    margin-left: 42px;
++}
++.footer-buttons-min {
++    display: none;
++}
++
++.button-to-header {
++    display: inline-block;
++    border-radius: 100px;
++    border: #fff 2px solid;
++    position: relative;
++    padding: 10px 36px;
++    font-family: VelaSansBold, serif;
++    font-size: 18px;
++}
++
++
++.button-profile {
++    position: relative;
++    font-family: VelaSansBold, serif;
++    font-size: 18px;
++    border-radius: 100px;
++    background: #fff;
++    padding: 10px 27px;
++    margin-bottom: 5px;
++}
++.button-profile a {
++    color: #000;
++}
++
++.button-profile:after {
++    content: url("/img/profile.svg");
++    margin-left: 10px;
++}
++
++.timer-min {
++    display: none;
++}
++.timer-min1{
++    display: none;
++}
+\ No newline at end of file
+Index: img/Ellipse 66.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/img/Ellipse 66.svg b/img/Ellipse 66.svg
+new file mode 100644
+--- /dev/null	(date 1695282804573)
++++ b/img/Ellipse 66.svg	(date 1695282804573)
+@@ -0,0 +1,12 @@
++<svg width="405" height="667" viewBox="0 0 405 667" fill="none" xmlns="http://www.w3.org/2000/svg">
++<g filter="url(#filter0_f_1_22)">
++<circle cx="-21" cy="241" r="210" fill="#3EC965" fill-opacity="0.19"/>
++</g>
++<defs>
++<filter id="filter0_f_1_22" x="-447" y="-185" width="852" height="852" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
++<feFlood flood-opacity="0" result="BackgroundImageFix"/>
++<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
++<feGaussianBlur stdDeviation="108" result="effect1_foregroundBlur_1_22"/>
++</filter>
++</defs>
++</svg>
